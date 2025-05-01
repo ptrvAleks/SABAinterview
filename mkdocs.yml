@@ -1,5 +1,4 @@
 site_url: https://ptrvaleks.github.io/docs/
-site_dir: docs/
 site_name: Мои заметки
 nav:
   - Главная: index.md
