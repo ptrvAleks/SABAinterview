@@ -1,0 +1,6 @@
+site_name: Мои заметки
+nav:
+  - Главная: index.md
+  - Другие: other.md
+theme:
+  name: material
