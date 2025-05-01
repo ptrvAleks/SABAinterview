@@ -1,6 +1,11 @@
 site_name: Мои заметки
 nav:
   - Главная: index.md
-  - Другие: other.md
+  - СА:
+      - Главная: sa/index.md
+      - БД:
+          - Главная: sa/bd/index.md
+  - БА:
+      - Главная: ba/index.md
 theme:
   name: material
