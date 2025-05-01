@@ -1,5 +1,6 @@
-site_url: https://ptrvaleks.github.io/docs/
 site_name: Мои заметки
+site_url: https://ptrvaleks.github.io/SABAinterview/docs/
+use_directory_urls: false
 nav:
   - Главная: index.md
   - СА:
