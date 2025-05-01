@@ -8,23 +8,21 @@
       
       
       
-        <link rel="canonical" href="https://ptrvaleks.github.io/">
+        <link rel="canonical" href="https://ptrvaleks.github.io/sa/%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8/RabbitMQ%20vs%20Kafka/">
       
       
       
-        <link rel="next" href="sa/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/">
       
-      
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>Мои заметки</title>
+        <title>RabbitMQ vs Kafka - Мои заметки</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.2afb09e1.min.css">
       
       
 
@@ -43,7 +41,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +60,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#rabbitmq-vs-apache-kafka" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +76,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Мои заметки" class="md-header__button md-logo" aria-label="Мои заметки" data-md-component="logo">
+    <a href="../../.." title="Мои заметки" class="md-header__button md-logo" aria-label="Мои заметки" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Главная
+              RabbitMQ vs Kafka
             
           </span>
         </div>
@@ -176,7 +174,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Мои заметки" class="md-nav__button md-logo" aria-label="Мои заметки" data-md-component="logo">
+    <a href="../../.." title="Мои заметки" class="md-nav__button md-logo" aria-label="Мои заметки" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -191,32 +189,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Главная
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -227,59 +203,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Разделы:
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Разделы:">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. СА
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. БА
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -329,7 +252,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sa/index.md" class="md-nav__link">
+      <a href="../../index.md" class="md-nav__link">
         
   
   
@@ -390,7 +313,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sa/bd/index.md" class="md-nav__link">
+      <a href="../../bd/index.md" class="md-nav__link">
         
   
   
@@ -421,7 +344,7 @@
   
   
     <li class="md-nav__item">
-      <a href="sa/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/" class="md-nav__link">
+      <a href="../../%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/" class="md-nav__link">
         
   
   
@@ -489,7 +412,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ba/index.md" class="md-nav__link">
+      <a href="../../../ba/index.md" class="md-nav__link">
         
   
   
@@ -529,8 +452,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -539,28 +460,130 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
+  <a href="#rabbitmq-vs-apache-kafka" class="md-nav__link">
     <span class="md-ellipsis">
-      Разделы:
+      📬 RabbitMQ vs 🐘 Apache Kafka
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Разделы:">
+    <nav class="md-nav" aria-label="📬 RabbitMQ vs 🐘 Apache Kafka">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      1. СА
+      🧾 Описание
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      2. БА
+      📐 Архитектурные отличия
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      🧰 Примеры использования
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧰 Примеры использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq" class="md-nav__link">
+    <span class="md-ellipsis">
+      RabbitMQ
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kafka
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Пример архитектуры
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Пример архитектуры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      RabbitMQ:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kafka_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Kafka:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Таблица сравнения
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      💡 Вывод
     </span>
   </a>
   
@@ -587,17 +610,181 @@
 
 
 
-<h1 id="_1">Мои заметки</h1>
-<p>Добро пожаловать в мои заметки! Вот несколько разделов, которые помогут вам начать.</p>
-<h2 id="_2">Разделы:</h2>
-<h3 id="1">1. <a href="sa/index.md">СА</a></h3>
-<p>В этом разделе вы найдете материалы по Системной Архитектуре.</p>
+  <h1>RabbitMQ vs Kafka</h1>
+
+<pre><code class="language-toc"></code></pre>
+<h2 id="rabbitmq-vs-apache-kafka"><strong>📬 RabbitMQ vs 🐘 Apache Kafka</strong></h2>
+<p><strong>RabbitMQ</strong> и <strong>Kafka</strong> — это два популярных брокера сообщений, но у них <strong>разные архитектуры, подходы и задачи</strong>, которые они решают.</p>
+<hr />
+<h3 id="_1"><strong>🧾 Описание</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Система</strong></th>
+<th><strong>Описание</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RabbitMQ</strong></td>
+<td>Брокер сообщений, реализующий модель <strong>очередей</strong> (message queue), основан на протоколе <strong>AMQP</strong>. Подходит для традиционной асинхронной коммуникации.</td>
+</tr>
+<tr>
+<td><strong>Kafka</strong></td>
+<td>Система обработки событий и <strong>журнал сообщений</strong> (distributed log), спроектирована для <strong>потоковой обработки данных</strong>, масштабируемости и долговременного хранения.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_2"><strong>📐 Архитектурные отличия</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Критерий</strong></th>
+<th><strong>RabbitMQ</strong></th>
+<th><strong>Kafka</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Тип системы</td>
+<td>Очередь сообщений (Queue)</td>
+<td>Журнал событий (Log)</td>
+</tr>
+<tr>
+<td>Протокол</td>
+<td>AMQP, STOMP, MQTT</td>
+<td>Собственный бинарный протокол</td>
+</tr>
+<tr>
+<td>Хранение сообщений</td>
+<td>Временное (удаляются после обработки)</td>
+<td>Постоянное (настраиваемое хранение по времени/объёму)</td>
+</tr>
+<tr>
+<td>Потребление</td>
+<td>Каждое сообщение потребляется <strong>один раз</strong></td>
+<td>Одно сообщение может быть прочитано <strong>многими</strong> подписчиками</td>
+</tr>
+<tr>
+<td>Порядок сообщений</td>
+<td>Не гарантирован</td>
+<td>Гарантирован в пределах <strong>partition</strong></td>
+</tr>
+<tr>
+<td>Поддержка отложенных сообщений</td>
+<td>Да (через плагины/очереди)</td>
+<td>Нет напрямую (нужно обрабатывать на клиенте)</td>
+</tr>
+<tr>
+<td>Подтверждение доставки</td>
+<td>Обязательно (ack/nack)</td>
+<td>Управляется смещением (offset)</td>
+</tr>
+<tr>
+<td>Расширяемость</td>
+<td>Средняя</td>
+<td>Очень высокая (кластер из брокеров и партиций)</td>
+</tr>
+<tr>
+<td>Подходящий сценарий</td>
+<td>Task queues, RPC, микросервисы</td>
+<td>Потоковая аналитика, обработка событий, логирование</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_3"><strong>🧰 Примеры использования</strong></h3>
+<h4 id="_4"><strong>✅</strong></h4>
+<h4 id="rabbitmq"><strong>RabbitMQ</strong></h4>
 <ul>
-<li><a href="sa/bd/index.md">БД</a> — все, что нужно знать о базах данных.</li>
-<li><a href="sa/%D0%90%D1%83%D1%82%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D1%80%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/">Авторизация и аутентификация</a> — все, что нужно знать о базах данных.</li>
+<li>
+<p>Асинхронная передача задач между микросервисами.</p>
+</li>
+<li>
+<p>Реализация <strong>отложенных задач</strong> (например, напоминания).</p>
+</li>
+<li>
+<p>Отправка уведомлений, email.</p>
+</li>
+<li>
+<p>RPC-запросы между сервисами.</p>
+</li>
 </ul>
-<h3 id="2">2. <a href="ba/index.md">БА</a></h3>
-<p>В этом разделе представлены заметки по Бизнес-Архитектуре.</p>
+<h4 id="_5"><strong>✅</strong></h4>
+<h4 id="kafka"><strong>Kafka</strong></h4>
+<ul>
+<li>
+<p>Потоковая обработка данных (stream processing).</p>
+</li>
+<li>
+<p>Хранение логов и событий.</p>
+</li>
+<li>
+<p>Реализация event sourcing.</p>
+</li>
+<li>
+<p>Интеграция с Big Data и аналитикой (например, Apache Spark, Flink).</p>
+</li>
+</ul>
+<hr />
+<h3 id="_6"><strong>⚙️ Пример архитектуры</strong></h3>
+<h4 id="rabbitmq_1"><strong>RabbitMQ:</strong></h4>
+<pre><code>Producer → Queue → Consumer
+Сообщение удаляется после обработки
+</code></pre>
+<h4 id="kafka_1"><strong>Kafka:</strong></h4>
+<pre><code>Producer → Topic → Consumer Group
+Сообщения хранятся, пока не истечёт TTL
+</code></pre>
+<hr />
+<h3 id="_7"><strong>📊 Таблица сравнения</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Характеристика</strong></th>
+<th><strong>RabbitMQ</strong></th>
+<th><strong>Kafka</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Скорость</td>
+<td>Подходит для небольших нагрузок</td>
+<td>Высокая пропускная способность</td>
+</tr>
+<tr>
+<td>Надёжность доставки</td>
+<td>Подтверждение от клиента</td>
+<td>Гибкое управление offset’ами</td>
+</tr>
+<tr>
+<td>Поддержка повторного чтения</td>
+<td>Нет (если не сконфигурировано)</td>
+<td>Да (offset управляется вручную)</td>
+</tr>
+<tr>
+<td>Подписчики</td>
+<td>Один потребитель на сообщение</td>
+<td>Множественные группы потребителей</td>
+</tr>
+<tr>
+<td>Инструменты мониторинга</td>
+<td>Хорошие (веб-интерфейс)</td>
+<td>Требует настройки (например, Prometheus + Grafana)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_8"><strong>💡 Вывод</strong></h3>
+<ul>
+<li>
+<p>🐇 <strong>RabbitMQ</strong> — хорош для <strong>традиционной очереди задач</strong>, где важна простота и подтверждение доставки.</p>
+</li>
+<li>
+<p>🐘 <strong>Kafka</strong> — оптимален для <strong>потоковой обработки данных</strong> в <strong>масштабируемых</strong> распределённых системах.</p>
+</li>
+</ul>
 
 
 
@@ -646,10 +833,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>
