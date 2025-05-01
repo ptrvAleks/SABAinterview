@@ -8,19 +8,24 @@ jobs:
   deploy:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Set up Python
-      uses: actions/setup-python@v4
-      with:
-        python-version: 3.10
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
 
-    - name: Install MkDocs
-      run: |
-        pip install mkdocs mkdocs-material
+      - name: Install MkDocs
+        run: |
+          pip install mkdocs mkdocs-material
 
-    - name: Build and Deploy
-      run: |
-        mkdocs gh-deploy --force
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Configure Git identity
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Build and Deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdocs gh-deploy --force --remote-branch gh-pages --remote-name origin
