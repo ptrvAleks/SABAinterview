@@ -19,17 +19,11 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: Configure Git identity
+      - name: Set up GitHub Token for deployment
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-
-      - name: Set up SSH key for GitHub Pages
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.ACTIONS_DEPLOY_KEY }}" > ~/.ssh/id_ed25519
-          chmod 600 ~/.ssh/id_ed25519
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Build and Deploy to GitHub Pages
         run: |
