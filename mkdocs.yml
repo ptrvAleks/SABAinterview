@@ -33,3 +33,9 @@ nav:
       - Главная: ba/index.md
 theme:
   name: material
+site_author: Aleksandr Petrov
+copyright: Aleksandr Petrov, ptrvAleks, 2025
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
