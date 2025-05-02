@@ -1,6 +1,3 @@
-```toc
-```
-
 ## **🧾 XSD (XML Schema Definition)**
 
   

@@ -1,6 +1,3 @@
-```toc
-```
-
 ## **🧼 SOAP (Simple Object Access Protocol)**
 
   

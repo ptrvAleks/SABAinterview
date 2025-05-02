@@ -1,6 +1,3 @@
-```toc
-```
-
 ## **🌐 REST (Representational State Transfer)**
 
   

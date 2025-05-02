@@ -1,6 +1,3 @@
-```toc
-```
-
 ## **📬 RabbitMQ vs 🐘 Apache Kafka**
 
   
