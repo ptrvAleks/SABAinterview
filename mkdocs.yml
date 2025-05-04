@@ -29,8 +29,13 @@ nav:
       - Виды архитектур: sa/Виды архитектур.md
       - Идемпотентность: sa/Идемпотентность.md
       - Монолит vs микросервис: sa/Монолитная vs микросервисная.md
+      - HTTP: sa/http.md
   - БА:
       - Главная: ba/index.md
+      - Виды требований: ba/Виды требований.md
+      - Use case и User story: ba/Use case и User story.md
+      - Методологии: ba/Методологии.md
+      - UML: ba/UML.md
 theme:
   name: material
 site_author: Aleksandr Petrov

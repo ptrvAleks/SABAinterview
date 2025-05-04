@@ -7,6 +7,8 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+        <meta name="author" content="Aleksandr Petrov">
+      
       
         <link rel="canonical" href="https://ptrvaleks.github.io/sa/%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8/RabbitMQ%20vs%20Kafka/">
       
@@ -432,6 +434,52 @@
   
   <span class="md-ellipsis">
     Джойны
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%91%D0%94/SQL/%D0%90%D0%B3%D1%80%D0%B5%D0%B3%D0%B0%D1%86%D0%B8%D0%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Агрегации
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%91%D0%94/SQL/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Вопросы на собеседованиях
     
   </span>
   
@@ -954,7 +1002,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Взаимодействие/Оркестрация и хореография.md" class="md-nav__link">
+      <a href="../../%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5/%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20vs%20%D1%85%D0%BE%D1%80%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F/" class="md-nav__link">
         
   
   
@@ -1093,6 +1141,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../http/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HTTP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1151,6 +1222,98 @@
   
   <span class="md-ellipsis">
     Главная
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/%D0%92%D0%B8%D0%B4%D1%8B%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Виды требований
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/Use%20case%20%D0%B8%20User%20story/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Use case и User story
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Методологии
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/UML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UML
     
   </span>
   
@@ -1345,7 +1508,6 @@
 
   <h1>RabbitMQ vs Kafka</h1>
 
-<pre><code class="language-toc"></code></pre>
 <h2 id="rabbitmq-vs-apache-kafka"><strong>📬 RabbitMQ vs 🐘 Apache Kafka</strong></h2>
 <p><strong>RabbitMQ</strong> и <strong>Kafka</strong> — это два популярных брокера сообщений, но у них <strong>разные архитектуры, подходы и задачи</strong>, которые они решают.</p>
 <hr />
@@ -1463,13 +1625,13 @@
 <hr />
 <h3 id="_6"><strong>⚙️ Пример архитектуры</strong></h3>
 <h4 id="rabbitmq_1"><strong>RabbitMQ:</strong></h4>
-<pre><code>Producer → Queue → Consumer
+<div class="highlight"><pre><span></span><code>Producer → Queue → Consumer
 Сообщение удаляется после обработки
-</code></pre>
+</code></pre></div>
 <h4 id="kafka_1"><strong>Kafka:</strong></h4>
-<pre><code>Producer → Topic → Consumer Group
+<div class="highlight"><pre><span></span><code>Producer → Topic → Consumer Group
 Сообщения хранятся, пока не истечёт TTL
-</code></pre>
+</code></pre></div>
 <hr />
 <h3 id="_7"><strong>📊 Таблица сравнения</strong></h3>
 <table>
@@ -1545,6 +1707,10 @@
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Aleksandr Petrov, ptrvAleks, 2025
+    </div>
   
   
     Made with

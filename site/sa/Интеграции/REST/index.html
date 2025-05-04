@@ -7,6 +7,8 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+        <meta name="author" content="Aleksandr Petrov">
+      
       
         <link rel="canonical" href="https://ptrvaleks.github.io/sa/%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D0%B8/REST/">
       
@@ -432,6 +434,52 @@
   
   <span class="md-ellipsis">
     Джойны
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%91%D0%94/SQL/%D0%90%D0%B3%D1%80%D0%B5%D0%B3%D0%B0%D1%86%D0%B8%D0%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Агрегации
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%D0%91%D0%94/SQL/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Вопросы на собеседованиях
     
   </span>
   
@@ -930,7 +978,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Взаимодействие/Оркестрация и хореография.md" class="md-nav__link">
+      <a href="../../%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5/%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20vs%20%D1%85%D0%BE%D1%80%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F/" class="md-nav__link">
         
   
   
@@ -1069,6 +1117,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../http/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HTTP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1127,6 +1198,98 @@
   
   <span class="md-ellipsis">
     Главная
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/%D0%92%D0%B8%D0%B4%D1%8B%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Виды требований
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/Use%20case%20%D0%B8%20User%20story/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Use case и User story
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Методологии
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ba/UML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UML
     
   </span>
   
@@ -1297,7 +1460,6 @@
 
   <h1>REST</h1>
 
-<pre><code class="language-toc"></code></pre>
 <h2 id="rest-representational-state-transfer"><strong>🌐 REST (Representational State Transfer)</strong></h2>
 <p><strong>REST</strong> — это архитектурный стиль для построения веб-сервисов, основанный на принципах взаимодействия через HTTP и представление ресурсов.</p>
 <p>REST не является протоколом или стандартом — это набор ограничений и рекомендаций, которые делают API понятным, масштабируемым и кроссплатформенным.</p>
@@ -1382,9 +1544,9 @@
 <ul>
 <li>Ресурсы (например, пользователи, заказы) представлены <strong>уникальными адресами</strong>:</li>
 </ul>
-<pre><code>GET /users/42
+<div class="highlight"><pre><span></span><code>GET /users/42
 DELETE /orders/1001
-</code></pre>
+</code></pre></div>
 <h4 id="6-representation"><strong>6.Представление ресурса (Representation)</strong></h4>
 <ul>
 <li>
@@ -1405,18 +1567,18 @@ DELETE /orders/1001
 </ul>
 <hr />
 <h3 id="rest-"><strong>📌 Пример REST-запроса</strong></h3>
-<pre><code>GET /api/users/10 HTTP/1.1
+<div class="highlight"><pre><span></span><code>GET /api/users/10 HTTP/1.1
 Host: example.com
 Accept: application/json
 Authorization: Bearer abc123
-</code></pre>
+</code></pre></div>
 <p>Ответ:</p>
-<pre><code>{
+<div class="highlight"><pre><span></span><code>{
   &quot;id&quot;: 10,
   &quot;name&quot;: &quot;Alice&quot;,
   &quot;email&quot;: &quot;alice@example.com&quot;
 }
-</code></pre>
+</code></pre></div>
 <hr />
 <h3 id="rest_1"><strong>✅ Преимущества REST</strong></h3>
 <ul>
@@ -1460,6 +1622,10 @@ Authorization: Bearer abc123
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Aleksandr Petrov, ptrvAleks, 2025
+    </div>
   
   
     Made with

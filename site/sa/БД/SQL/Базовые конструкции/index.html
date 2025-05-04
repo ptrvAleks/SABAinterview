@@ -7,6 +7,8 @@
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
       
+        <meta name="author" content="Aleksandr Petrov">
+      
       
         <link rel="canonical" href="https://ptrvaleks.github.io/sa/%D0%91%D0%94/SQL/%D0%91%D0%B0%D0%B7%D0%BE%D0%B2%D1%8B%D0%B5%20%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8/">
       
@@ -62,6 +64,11 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#sql" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -408,6 +415,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Базовые конструкции
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -420,6 +442,148 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#select" class="md-nav__link">
+    <span class="md-ellipsis">
+      SELECT — выбрать столбцы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from" class="md-nav__link">
+    <span class="md-ellipsis">
+      FROM — из какой таблицы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where" class="md-nav__link">
+    <span class="md-ellipsis">
+      WHERE — фильтрация данных
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#order-by" class="md-nav__link">
+    <span class="md-ellipsis">
+      ORDER BY — сортировка
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limit" class="md-nav__link">
+    <span class="md-ellipsis">
+      LIMIT — ограничение количества строк
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distinct" class="md-nav__link">
+    <span class="md-ellipsis">
+      DISTINCT — убрать дубликаты
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-between-like-is-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      IN, BETWEEN, LIKE, IS NULL — фильтрация по условиям
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IN, BETWEEN, LIKE, IS NULL — фильтрация по условиям">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in" class="md-nav__link">
+    <span class="md-ellipsis">
+      IN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#between" class="md-nav__link">
+    <span class="md-ellipsis">
+      BETWEEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#like" class="md-nav__link">
+    <span class="md-ellipsis">
+      LIKE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      IS NULL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#as" class="md-nav__link">
+    <span class="md-ellipsis">
+      AS — задать псевдоним столбцу
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-" class="md-nav__link">
+    <span class="md-ellipsis">
+      Пример подробного SQL-запроса
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -439,6 +603,52 @@
   
   <span class="md-ellipsis">
     Джойны
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%90%D0%B3%D1%80%D0%B5%D0%B3%D0%B0%D1%86%D0%B8%D0%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Агрегации
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B%20%D0%BD%D0%B0%20%D1%81%D0%BE%D0%B1%D0%B5%D1%81%D0%B5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Вопросы на собеседованиях
     
   </span>
   
@@ -786,7 +996,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../Взаимодействие/Оркестрация и хореография.md" class="md-nav__link">
+      <a href="../../../%D0%92%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5/%D0%9E%D1%80%D0%BA%D0%B5%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F%20vs%20%D1%85%D0%BE%D1%80%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F/" class="md-nav__link">
         
   
   
@@ -925,6 +1135,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../http/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    HTTP
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -993,6 +1226,98 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ba/%D0%92%D0%B8%D0%B4%D1%8B%20%D1%82%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Виды требований
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ba/Use%20case%20%D0%B8%20User%20story/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Use case и User story
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ba/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Методологии
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../ba/UML/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    UML
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1017,6 +1342,139 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#select" class="md-nav__link">
+    <span class="md-ellipsis">
+      SELECT — выбрать столбцы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from" class="md-nav__link">
+    <span class="md-ellipsis">
+      FROM — из какой таблицы
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#where" class="md-nav__link">
+    <span class="md-ellipsis">
+      WHERE — фильтрация данных
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#order-by" class="md-nav__link">
+    <span class="md-ellipsis">
+      ORDER BY — сортировка
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#limit" class="md-nav__link">
+    <span class="md-ellipsis">
+      LIMIT — ограничение количества строк
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distinct" class="md-nav__link">
+    <span class="md-ellipsis">
+      DISTINCT — убрать дубликаты
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#in-between-like-is-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      IN, BETWEEN, LIKE, IS NULL — фильтрация по условиям
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IN, BETWEEN, LIKE, IS NULL — фильтрация по условиям">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#in" class="md-nav__link">
+    <span class="md-ellipsis">
+      IN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#between" class="md-nav__link">
+    <span class="md-ellipsis">
+      BETWEEN
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#like" class="md-nav__link">
+    <span class="md-ellipsis">
+      LIKE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#is-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      IS NULL
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#as" class="md-nav__link">
+    <span class="md-ellipsis">
+      AS — задать псевдоним столбцу
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sql-" class="md-nav__link">
+    <span class="md-ellipsis">
+      Пример подробного SQL-запроса
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1032,23 +1490,88 @@
 
 
 
-  <h1>Базовые конструкции</h1>
-
-<p>Базовые конструкции</p>
-<pre><code>SELECT name, age  
+<h1 id="sql">Базовые конструкции SQL</h1>
+<p>Пример запроса:</p>
+<div class="highlight"><pre><span></span><code>SELECT name, age  
 FROM users  
 WHERE age &gt;= 18  
 ORDER BY age DESC  
 LIMIT 10;
-</code></pre>
-<p>SELECT: выбрать столбцы</p>
-<p>FROM: из какой таблицы</p>
-<p>WHERE: фильтрация</p>
-<p>ORDER BY: сортировка</p>
-<p>LIMIT: ограничение количества строк</p>
-<p>DISTINCT: убрать дубликаты</p>
-<p>IN, BETWEEN, LIKE, IS NULL: фильтрация по условиям</p>
-<p>AS: задать псевдоним столбцу</p>
+</code></pre></div>
+<h2 id="select">SELECT — выбрать столбцы</h2>
+<p>Команда SELECT используется для выборки данных из таблицы. С помощью SELECT указывается, какие столбцы данных нужно извлечь. Например:</p>
+<p><div class="highlight"><pre><span></span><code>SELECT name, age
+</code></pre></div>
+Здесь мы выбираем столбцы name (имя) и age (возраст) из таблицы.</p>
+<h2 id="from">FROM — из какой таблицы</h2>
+<p>Ключевое слово FROM указывает, из какой таблицы нужно извлечь данные. Это обязательная часть запроса.</p>
+<p><div class="highlight"><pre><span></span><code>FROM users
+</code></pre></div>
+Здесь мы указываем таблицу users, из которой будем извлекать данные.</p>
+<h2 id="where">WHERE — фильтрация данных</h2>
+<p>WHERE позволяет задавать условия, которые должны быть выполнены для отбора данных. Например, чтобы выбрать только тех пользователей, возраст которых 18 лет и больше:</p>
+<p><div class="highlight"><pre><span></span><code>WHERE age &gt;= 18
+</code></pre></div>
+В этом примере мы отбираем пользователей, чей возраст больше или равен 18.</p>
+<h2 id="order-by">ORDER BY — сортировка</h2>
+<p>ORDER BY используется для сортировки результатов. Он позволяет отсортировать данные по одному или нескольким столбцам. При этом можно указать направление сортировки: по возрастанию (ASC) или по убыванию (DESC).</p>
+<p><div class="highlight"><pre><span></span><code>ORDER BY age DESC
+</code></pre></div>
+Здесь мы сортируем данные по столбцу age в порядке убывания.</p>
+<h2 id="limit">LIMIT — ограничение количества строк</h2>
+<p>LIMIT задаёт максимальное количество строк, которые будут возвращены в результате запроса. Это полезно, если нужно получить только часть данных (например, первые 10 записей).</p>
+<p><code>LIMIT 10</code></p>
+<p>Этот запрос ограничивает количество результатов 10 строками.</p>
+<h2 id="distinct">DISTINCT — убрать дубликаты</h2>
+<p>Если необходимо исключить повторяющиеся значения, можно использовать DISTINCT. Например:</p>
+<div class="highlight"><pre><span></span><code>SELECT DISTINCT name
+FROM users
+</code></pre></div>
+<p>Этот запрос вернёт уникальные значения в столбце name (без дублирования).</p>
+<h2 id="in-between-like-is-null">IN, BETWEEN, LIKE, IS NULL — фильтрация по условиям</h2>
+<p>Эти операторы позволяют задавать различные условия для фильтрации данных.</p>
+<h3 id="in">IN</h3>
+<p>Позволяет указать несколько значений, одно из которых должно соответствовать столбцу. 
+Например:</p>
+<p><div class="highlight"><pre><span></span><code>WHERE age IN (18, 20, 25)
+</code></pre></div>
+Этот запрос вернёт пользователей с возрастом 18, 20 или 25 лет.</p>
+<h3 id="between">BETWEEN</h3>
+<p>Используется для фильтрации данных в диапазоне значений. 
+Например:</p>
+<p><div class="highlight"><pre><span></span><code>WHERE age BETWEEN 18 AND 30
+</code></pre></div>
+Этот запрос выберет пользователей с возрастом от 18 до 30 лет (включая границы).</p>
+<h3 id="like">LIKE</h3>
+<p>Используется для поиска значений, которые соответствуют паттерну. 
+Например:</p>
+<p><div class="highlight"><pre><span></span><code>WHERE name LIKE &#39;A%&#39;
+</code></pre></div>
+Этот запрос выберет всех пользователей, чьи имена начинаются с буквы “A”.</p>
+<h3 id="is-null">IS NULL</h3>
+<p>Используется для поиска записей, где столбец имеет значение NULL (отсутствие значения). 
+Например:</p>
+<p><div class="highlight"><pre><span></span><code>WHERE age IS NULL
+</code></pre></div>
+Этот запрос выберет все записи, где возраст не указан (равен NULL).</p>
+<h2 id="as">AS — задать псевдоним столбцу</h2>
+<p>Команда AS позволяет задать псевдоним (псевдоним столбца или таблицы) для более удобного обращения. Например:</p>
+<div class="highlight"><pre><span></span><code>SELECT name AS user_name
+FROM users
+</code></pre></div>
+<p>В этом запросе столбец name будет представлен как user_name в результирующем наборе данных.<br />
+Это особенно полезно при работе с вычисляемыми столбцами или длинными названиями.</p>
+<p>⸻</p>
+<h2 id="sql-">Пример подробного SQL-запроса</h2>
+<div class="highlight"><pre><span></span><code>SELECT DISTINCT name AS user_name, age  
+FROM users  
+WHERE age BETWEEN 18 AND 30
+  AND name LIKE &#39;A%&#39;
+ORDER BY age DESC
+LIMIT 10;
+</code></pre></div>
+<p>Этот запрос выбирает уникальные имена и возраст пользователей, чьи имена начинаются с буквы “A” и чей возраст находится в диапазоне от 18 до 30 лет.
+Результаты сортируются по возрасту в порядке убывания, и ограничиваются первыми 10 записями.</p>
 
 
 
@@ -1076,6 +1599,10 @@ LIMIT 10;
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
       <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Aleksandr Petrov, ptrvAleks, 2025
+    </div>
   
   
     Made with
