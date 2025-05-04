@@ -31,7 +31,6 @@ nav:
       - Монолит vs микросервис: sa/Монолитная vs микросервисная.md
       - HTTP: sa/http.md
   - БА:
-      - Главная: ba/index.md
       - Виды требований: ba/Виды требований.md
       - Use case и User story: ba/Use case и User story.md
       - Методологии: ba/Методологии.md
