@@ -36,6 +36,7 @@ nav:
       - Use case и User story: ba/Use case и User story.md
       - Методологии: ba/Методологии.md
       - UML: ba/UML.md
+      - BPMN: ba/BPMN.md
 theme:
   name: material
 site_author: Aleksandr Petrov
