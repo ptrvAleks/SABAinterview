@@ -9,4 +9,4 @@
 | **безопасность**   | SSL и WS-security                                                                      | SSL (HTTPS), OAuth, JWT и др.                                    |
 | **предназначение** | в основном для систем с большим функционалом, где есть транзакции и нужна безопасность | для легковесных и гибких веб-сервисов                            |
 
-![Rest vs Soap](../assets/images/sa/soapVSrest.jpeg)
+![Rest vs Soap](../assets/images/saImages/soapVSrest.jpeg)
