@@ -2,6 +2,7 @@ site_name: Подготовка к интервью
 site_url: https://ptrvaleks.github.io/
 nav:
   - Главная: index.md
+  - Вопросы на собеседовании: QandA.md
   - СА:
       - БД:
           - Ключи: sa/БД/Ключи.md
