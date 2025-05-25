@@ -36,6 +36,7 @@ nav:
       - Методологии: ba/Методологии.md
       - UML: ba/UML.md
       - BPMN: ba/BPMN.md
+      - Роли в команде: ba/team.md
 theme:
   name: material
 site_author: Aleksandr Petrov
