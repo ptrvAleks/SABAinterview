@@ -1,47 +1,52 @@
-site_name: Подготовка к интервью
-site_url: https://ptrvaleks.github.io/
+site_name: "Подготовка к интервью"
+site_url: "https://ptrvaleks.github.io/SABAinterview/"
+
 nav:
-  - Главная: index.md
-  - СА:
-      - БД:
-          - Ключи: sa/БД/Ключи.md
-          - Нормализация: sa/БД/Нормализация.md
-          - Индексы: sa/БД/Индексы.md
-          - SQL:
-             - Базовые конструкции: sa/БД/SQL/Базовые конструкции.md
-             - Джойны: sa/БД/SQL/Джойны.md
-             - Агрегации: sa/БД/SQL/Агрегации.md
-             - Вопросы на собеседованиях: sa/БД/SQL/Вопросы на собесе.md
-      - Интеграции:
-          - Способы интеграций: sa/Интеграции/Способы интеграций.md
-          - RabbitMQ vs Kafka: sa/Интеграции/RabbitMQ vs Kafka.md
-          - REST: sa/Интеграции/REST.md
-          - SOAP: sa/Интеграции/SOAP.md
-          - REST vs SOAP: sa/Интеграции/REST vs SOAP.md
-      - Форматы данных:
-          - JSON vs XML: sa/Форматы данных/JSON vs XML.md
-          - JSON Schema: sa/Форматы данных/JSON Schema.md
-          - XSD: sa/Форматы данных/XSD.md
-      - Взаимодействие:
-          - Оркестрация и хореография: sa/Взаимодействие/Оркестрация vs хореография.md
-          - Синх. и асинх. взаим-ие: sa/Взаимодействие/Синхронное и асинхронное взаимодействие.md
-      - Аутентификация и авторизация: sa/Аутентификация и авторизация.md
-      - Идентификация: sa/Идентификация.md
-      - Виды архитектур: sa/Виды архитектур.md
-      - Идемпотентность: sa/Идемпотентность.md
-      - Монолит vs микросервис: sa/Монолитная vs микросервисная.md
-      - HTTP: sa/http.md
-  - БА:
-      - Виды требований: ba/Виды требований.md
-      - Use case и User story: ba/Use case и User story.md
-      - Методологии: ba/Методологии.md
-      - UML: ba/UML.md
-      - BPMN: ba/BPMN.md
-      - Роли в команде: ba/team.md
+  - "Главная": index.md
+  - "СА":
+      - "БД":
+          - "Ключи": sa/db/keys.md
+          - "Нормализация": sa/db/normalization.md
+          - "Индексы": sa/db/indexes.md
+          - "SQL":
+              - "Базовые конструкции": sa/db/sql/basics.md
+              - "Джойны": sa/db/sql/joins.md
+              - "Агрегации": sa/db/sql/aggregations.md
+              - "Вопросы на собеседованиях": sa/db/sql/interview-questions.md
+      - "Интеграции":
+          - "Способы интеграций": sa/integrations/integration-methods.md
+          - "RabbitMQ vs Kafka": sa/integrations/rabbitmq-vs-kafka.md
+          - "REST": sa/integrations/rest.md
+          - "SOAP": sa/integrations/soap.md
+          - "REST vs SOAP": sa/integrations/rest-vs-soap.md
+      - "Форматы данных":
+          - "JSON vs XML": sa/data-formats/json-vs-xml.md
+          - "JSON Schema": sa/data-formats/json-schema.md
+          - "XSD": sa/data-formats/xsd.md
+      - "Взаимодействие":
+          - "Оркестрация и хореография": sa/interaction/orchestration-vs-choreography.md
+          - "Синх. и асинх. взаим-ие": sa/interaction/sync-vs-async.md
+      - "Аутентификация и авторизация": sa/authentication-and-authorization.md
+      - "Идентификация": sa/identification.md
+      - "Виды архитектур": sa/architecture-types.md
+      - "Идемпотентность": sa/idempotence.md
+      - "Монолит vs микросервис": sa/monolith-vs-microservices.md
+      - "HTTP": sa/http.md
+  - "БА":
+      - "Виды требований": ba/requirement-types.md
+      - "Use case и User story": ba/use-case-and-user-story.md
+      - "Методологии": ba/methodologies.md
+      - "UML": ba/uml.md
+      - "BPMN": ba/bpmn.md
+      - "Роли в команде": ba/team.md
+
 theme:
   name: material
-site_author: Aleksandr Petrov
-copyright: Aleksandr Petrov, ptrvAleks, 2025
+  language: ru
+
+site_author: "Aleksandr Petrov"
+copyright: "Aleksandr Petrov, ptrvAleks, 2025"
+
 markdown_extensions:
   - admonition
   - pymdownx.details
