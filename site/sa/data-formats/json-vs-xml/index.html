@@ -10,22 +10,28 @@
         <meta name="author" content="Aleksandr Petrov">
       
       
+        <link rel="canonical" href="https://ptrvaleks.github.io/SABAinterview/sa/data-formats/json-vs-xml/">
       
+      
+        <link rel="prev" href="../../db/sql/interview-questions/">
+      
+      
+        <link rel="next" href="../json-schema/">
       
       
         
       
       
-      <link rel="icon" href="/SABAinterview/assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>Подготовка к интервью</title>
+        <title>JSON vs XML - Подготовка к интервью</title>
       
     
     
-      <link rel="stylesheet" href="/SABAinterview/assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
       
       
 
@@ -44,7 +50,7 @@
       
     
     
-    <script>__md_scope=new URL("/SABAinterview/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -61,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#xml-vs-json" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -73,7 +84,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href="/SABAinterview/." title="Подготовка к интервью" class="md-header__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
+    <a href="../../.." title="Подготовка к интервью" class="md-header__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -93,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              JSON vs XML
             
           </span>
         </div>
@@ -171,7 +182,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/SABAinterview/." title="Подготовка к интервью" class="md-nav__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
+    <a href="../../.." title="Подготовка к интервью" class="md-nav__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -189,7 +200,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/." class="md-nav__link">
+      <a href="../../.." class="md-nav__link">
         
   
   
@@ -213,18 +224,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -245,7 +258,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -310,7 +323,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/db/keys/" class="md-nav__link">
+      <a href="../../db/keys/" class="md-nav__link">
         
   
   
@@ -338,7 +351,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/db/normalization/" class="md-nav__link">
+      <a href="../../db/normalization/" class="md-nav__link">
         
   
   
@@ -366,7 +379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/db/indexes/" class="md-nav__link">
+      <a href="../../db/indexes/" class="md-nav__link">
         
   
   
@@ -441,7 +454,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/db/sql/basics/" class="md-nav__link">
+      <a href="../../db/sql/basics/" class="md-nav__link">
         
   
   
@@ -469,7 +482,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/db/sql/joins/" class="md-nav__link">
+      <a href="../../db/sql/joins/" class="md-nav__link">
         
   
   
@@ -497,7 +510,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/db/sql/aggregations/" class="md-nav__link">
+      <a href="../../db/sql/aggregations/" class="md-nav__link">
         
   
   
@@ -525,7 +538,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/db/sql/interview-questions/" class="md-nav__link">
+      <a href="../../db/sql/interview-questions/" class="md-nav__link">
         
   
   
@@ -616,7 +629,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/integrations/integration-methods.md" class="md-nav__link">
+      <a href="../../integrations/integration-methods.md" class="md-nav__link">
         
   
   
@@ -644,7 +657,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/integrations/rabbitmq-vs-kafka.md" class="md-nav__link">
+      <a href="../../integrations/rabbitmq-vs-kafka.md" class="md-nav__link">
         
   
   
@@ -672,7 +685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/integrations/rest.md" class="md-nav__link">
+      <a href="../../integrations/rest.md" class="md-nav__link">
         
   
   
@@ -700,7 +713,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/integrations/soap.md" class="md-nav__link">
+      <a href="../../integrations/soap.md" class="md-nav__link">
         
   
   
@@ -728,7 +741,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/integrations/rest-vs-soap.md" class="md-nav__link">
+      <a href="../../integrations/rest-vs-soap.md" class="md-nav__link">
         
   
   
@@ -761,18 +774,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" checked>
         
           
           <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
@@ -793,7 +808,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -808,10 +823,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="/SABAinterview/sa/data-formats/json-vs-xml/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    JSON vs XML
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -827,6 +867,130 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#xml-vs-json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📦 XML vs JSON
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📦 XML vs JSON">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📘 Что такое XML?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📘 Что такое XML?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📗 Что такое JSON?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📗 Что такое JSON?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xml-json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚖️ Сравнение XML и JSON
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Когда использовать что?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧩 Вывод
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -839,7 +1003,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/data-formats/json-schema/" class="md-nav__link">
+      <a href="../json-schema/" class="md-nav__link">
         
   
   
@@ -867,7 +1031,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/data-formats/xsd/" class="md-nav__link">
+      <a href="../xsd/" class="md-nav__link">
         
   
   
@@ -950,7 +1114,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/interaction/orchestration-vs-choreography/" class="md-nav__link">
+      <a href="../../interaction/orchestration-vs-choreography/" class="md-nav__link">
         
   
   
@@ -978,7 +1142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/interaction/sync-vs-async/" class="md-nav__link">
+      <a href="../../interaction/sync-vs-async/" class="md-nav__link">
         
   
   
@@ -1014,7 +1178,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/authentication-and-authorization/" class="md-nav__link">
+      <a href="../../authentication-and-authorization/" class="md-nav__link">
         
   
   
@@ -1042,7 +1206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/identification/" class="md-nav__link">
+      <a href="../../identification/" class="md-nav__link">
         
   
   
@@ -1070,7 +1234,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/architecture-types/" class="md-nav__link">
+      <a href="../../architecture-types/" class="md-nav__link">
         
   
   
@@ -1098,7 +1262,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/idempotence/" class="md-nav__link">
+      <a href="../../idempotence/" class="md-nav__link">
         
   
   
@@ -1126,7 +1290,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/monolith-vs-microservices/" class="md-nav__link">
+      <a href="../../monolith-vs-microservices/" class="md-nav__link">
         
   
   
@@ -1154,7 +1318,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/sa/http/" class="md-nav__link">
+      <a href="../../http/" class="md-nav__link">
         
   
   
@@ -1236,7 +1400,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/ba/requirement-types/" class="md-nav__link">
+      <a href="../../../ba/requirement-types/" class="md-nav__link">
         
   
   
@@ -1264,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/ba/use-case-and-user-story/" class="md-nav__link">
+      <a href="../../../ba/use-case-and-user-story/" class="md-nav__link">
         
   
   
@@ -1292,7 +1456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/ba/methodologies/" class="md-nav__link">
+      <a href="../../../ba/methodologies/" class="md-nav__link">
         
   
   
@@ -1320,7 +1484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/ba/uml/" class="md-nav__link">
+      <a href="../../../ba/uml/" class="md-nav__link">
         
   
   
@@ -1348,7 +1512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/ba/bpmn/" class="md-nav__link">
+      <a href="../../../ba/bpmn/" class="md-nav__link">
         
   
   
@@ -1376,7 +1540,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/SABAinterview/ba/team/" class="md-nav__link">
+      <a href="../../../ba/team/" class="md-nav__link">
         
   
   
@@ -1422,6 +1586,120 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#xml-vs-json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📦 XML vs JSON
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📦 XML vs JSON">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#xml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📘 Что такое XML?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📘 Что такое XML?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📗 Что такое JSON?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📗 Что такое JSON?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Пример:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xml-json" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚖️ Сравнение XML и JSON
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Когда использовать что?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧩 Вывод
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1433,8 +1711,183 @@
               
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+  <h1>JSON vs XML</h1>
+
+<h2 id="xml-vs-json"><strong>📦 XML vs JSON</strong></h2>
+<p><strong>XML (eXtensible Markup Language)</strong> и <strong>JSON (JavaScript Object Notation)</strong> — это форматы хранения и обмена данными между системами, особенно в веб-приложениях и API.</p>
+<hr />
+<h3 id="xml"><strong>📘 Что такое XML?</strong></h3>
+<ul>
+<li>
+<p>Формат разметки, <strong>похожий на HTML</strong>, но без заранее заданных тегов.</p>
+</li>
+<li>
+<p>Используется для хранения <strong>структурированных данных</strong>.</p>
+</li>
+<li>
+<p>Поддерживает <strong>иерархию, атрибуты, пространства имён, схемы (XSD)</strong>.</p>
+</li>
+<li>
+<p>Разработан еще в 1990-х годах, активно используется в системах с жесткими стандартами (финансовые, банковские, документооборот).</p>
+</li>
+</ul>
+<h4 id="_1"><strong>Пример:</strong></h4>
+<div class="highlight"><pre><span></span><code>&lt;user id=&quot;42&quot;&gt;
+    &lt;name&gt;Alice&lt;/name&gt;
+    &lt;email&gt;alice@example.com&lt;/email&gt;
+&lt;/user&gt;
+</code></pre></div>
+<hr />
+<h3 id="json"><strong>📗 Что такое JSON?</strong></h3>
+<ul>
+<li>
+<p>Лёгкий текстовый формат для хранения и передачи данных.</p>
+</li>
+<li>
+<p>Основан на синтаксисе JavaScript, но используется во многих языках.</p>
+</li>
+<li>
+<p>Поддерживает: <strong>объекты (ключ-значение)</strong>, <strong>массивы</strong>, <strong>числа</strong>, <strong>строки</strong>, <strong>логические значения</strong>, null.</p>
+</li>
+</ul>
+<h4 id="_2"><strong>Пример:</strong></h4>
+<div class="highlight"><pre><span></span><code>{
+  &quot;id&quot;: 42,
+  &quot;name&quot;: &quot;Alice&quot;,
+  &quot;email&quot;: &quot;alice@example.com&quot;
+}
+</code></pre></div>
+<hr />
+<h3 id="xml-json"><strong>⚖️ Сравнение XML и JSON</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Критерий</strong></th>
+<th><strong>XML</strong></th>
+<th><strong>JSON</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Синтаксис</td>
+<td>Теги</td>
+<td>Ключ-значение</td>
+</tr>
+<tr>
+<td>Читаемость</td>
+<td>Менее читаемый</td>
+<td>Более читаемый</td>
+</tr>
+<tr>
+<td>Размер</td>
+<td>Занимает больше места</td>
+<td>Компактнее</td>
+</tr>
+<tr>
+<td>Скорость обработки</td>
+<td>Медленнее</td>
+<td>Быстрее</td>
+</tr>
+<tr>
+<td>Поддержка схем</td>
+<td>XSD, DTD</td>
+<td>JSON Schema</td>
+</tr>
+<tr>
+<td>Поддержка атрибутов</td>
+<td>Да</td>
+<td>Нет (всё — часть объекта)</td>
+</tr>
+<tr>
+<td>Иерархия</td>
+<td>Сильная поддержка</td>
+<td>Есть, но проще</td>
+</tr>
+<tr>
+<td>Кешируемость</td>
+<td>Да</td>
+<td>Да</td>
+</tr>
+<tr>
+<td>Расширяемость</td>
+<td>Гибкая, с поддержкой пространств</td>
+<td>Менее формализована</td>
+</tr>
+<tr>
+<td>Типы данных</td>
+<td>Всё — строки (по умолчанию)</td>
+<td>Явные типы (число, логика и т.д.)</td>
+</tr>
+<tr>
+<td>Подходит для</td>
+<td>Документов, сложных структур</td>
+<td>API, быстрых обменов данными</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_3"><strong>🛠️ Когда использовать что?</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Сценарий</strong></th>
+<th><strong>Рекомендуемый формат</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Современные веб-API (REST)</td>
+<td>✅ JSON</td>
+</tr>
+<tr>
+<td>Стандартизированные интеграции (SOAP, B2B)</td>
+<td>✅ XML</td>
+</tr>
+<tr>
+<td>Небольшой объём данных</td>
+<td>✅ JSON</td>
+</tr>
+<tr>
+<td>Большой документооборот с валидацией по схеме</td>
+<td>✅ XML</td>
+</tr>
+<tr>
+<td>Необходимость хранения атрибутов</td>
+<td>✅ XML</td>
+</tr>
+<tr>
+<td>Обмен данными между браузером и сервером</td>
+<td>✅ JSON</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_4"><strong>🧩 Вывод</strong></h3>
+<ul>
+<li>
+<p><strong>JSON</strong>: простой, компактный, идеален для большинства REST API и frontend-backend взаимодействий.</p>
+</li>
+<li>
+<p><strong>XML</strong>: мощный, формализованный, подходит для сложных корпоративных систем и B2B-интеграций.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -1475,10 +1928,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "/SABAinterview/", "features": [], "search": "/SABAinterview/assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
     
     
-      <script src="/SABAinterview/assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
     
   </body>

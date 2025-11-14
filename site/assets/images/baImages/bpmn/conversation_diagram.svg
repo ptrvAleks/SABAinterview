@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG Диаграмма Диалог.svg Страница-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="9.82829in" height="1.39444in" viewBox="0 0 707.637 100.4" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st6">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st2 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st3 {font-size:1em}
+		.st4 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Страница-1</title>
+		<g id="shape1-1" transform="translate(92.626,-41.6883)">
+			<title>Шестиугольник</title>
+			<path d="M35.93 54.84 L9.63 54.84 L-3.52 77.62 L9.63 100.4 L35.93 100.4 L49.08 77.62 L35.93 54.84 Z" class="st1"/>
+		</g>
+		<g id="shape2-3" transform="translate(0.5,-29.0336)">
+			<title>Квадрат</title>
+			<desc>Клиент</desc>
+			<rect x="0" y="29.5336" width="70.8661" height="70.8661" class="st1"/>
+			<text x="20.37" y="67.97" class="st2">Клиент</text>		</g>
+		<g id="shape3-6" transform="translate(159.443,-29.0336)">
+			<title>Квадрат.3</title>
+			<desc>Менеджер по работе с клиентами</desc>
+			<rect x="0" y="29.5336" width="70.8661" height="70.8661" class="st1"/>
+			<text x="5.79" y="55.97" class="st2">Менеджер по <tspan x="17.44" dy="1.2em" class="st3">работе с </tspan><tspan
+						x="12.28" dy="1.2em" class="st3">клиентами</tspan></text>		</g>
+		<g id="shape4-11" transform="translate(318.385,-29.0336)">
+			<title>Квадрат.4</title>
+			<desc>Агент 1 линии техподдержки</desc>
+			<rect x="0" y="29.5336" width="70.8661" height="70.8661" class="st1"/>
+			<text x="5.59" y="61.97" class="st2">Агент 1 линии <tspan x="4.44" dy="1.2em" class="st3">техподдержки</tspan></text>		</g>
+		<g id="shape5-15" transform="translate(477.328,-29.0336)">
+			<title>Квадрат.5</title>
+			<desc>Агент 2 линии техподдержки</desc>
+			<rect x="0" y="29.5336" width="70.8661" height="70.8661" class="st1"/>
+			<text x="5.59" y="61.97" class="st2">Агент 2 линии <tspan x="4.44" dy="1.2em" class="st3">техподдержки</tspan></text>		</g>
+		<g id="shape6-19" transform="translate(636.271,-29.0336)">
+			<title>Квадрат.6</title>
+			<desc>Разработчик ПО</desc>
+			<rect x="0" y="29.5336" width="70.8661" height="70.8661" class="st1"/>
+			<text x="8.72" y="61.97" class="st2">Разработчик <tspan x="29.01" dy="1.2em" class="st3">ПО</tspan></text>		</g>
+		<g id="shape7-23" transform="translate(251.569,-41.6883)">
+			<title>Шестиугольник.7</title>
+			<path d="M35.93 54.84 L9.63 54.84 L-3.52 77.62 L9.63 100.4 L35.93 100.4 L49.08 77.62 L35.93 54.84 Z" class="st1"/>
+		</g>
+		<g id="shape10-25" transform="translate(410.511,-41.6883)">
+			<title>Шестиугольник.10</title>
+			<path d="M35.93 54.84 L9.63 54.84 L-3.52 77.62 L9.63 100.4 L35.93 100.4 L49.08 77.62 L35.93 54.84 Z" class="st1"/>
+		</g>
+		<g id="shape11-27" transform="translate(569.454,-41.6883)">
+			<title>Шестиугольник.11</title>
+			<path d="M35.93 54.84 L9.63 54.84 L-3.52 77.62 L9.63 100.4 L35.93 100.4 L49.08 77.62 L35.93 54.84 Z" class="st1"/>
+		</g>
+		<g id="shape20-29" transform="translate(79.9713,-3.82701)">
+			<title>Лист.20</title>
+			<desc>Запрос и решение проблемы</desc>
+			<rect x="0" y="72.0533" width="70.8661" height="28.3465" class="st4"/>
+			<text x="16.86" y="77.23" class="st2">Запрос и <tspan x="16.32" dy="1.2em" class="st3">решение </tspan><tspan x="13.15"
+						dy="1.2em" class="st3">проблемы</tspan></text>		</g>
+		<g id="shape21-34" transform="translate(236.93,-3.82701)">
+			<title>Лист.21</title>
+			<desc>Привлечение 1 линии поддержки</desc>
+			<rect x="0" y="72.0533" width="74.8346" height="28.3465" class="st4"/>
+			<text x="5.19" y="77.23" class="st2">Привлечение 1 <tspan x="24.08" dy="1.2em" class="st3">линии </tspan><tspan
+						x="13.02" dy="1.2em" class="st3">поддержки</tspan></text>		</g>
+		<g id="shape22-39" transform="translate(395.872,-3.82701)">
+			<title>Лист.22</title>
+			<desc>Привлечение 2 линии поддержки</desc>
+			<rect x="0" y="72.0533" width="74.8346" height="28.3465" class="st4"/>
+			<text x="5.19" y="77.23" class="st2">Привлечение 2 <tspan x="24.08" dy="1.2em" class="st3">линии </tspan><tspan
+						x="13.02" dy="1.2em" class="st3">поддержки</tspan></text>		</g>
+		<g id="shape23-44" transform="translate(554.815,-3.82701)">
+			<title>Лист.23</title>
+			<desc>Консультация с разработчиком ПО</desc>
+			<rect x="0" y="72.0533" width="74.8346" height="28.3465" class="st4"/>
+			<text x="4.76" y="77.23" class="st2">Консультация с <tspan x="4.64" dy="1.2em" class="st3">разработчиком </tspan><tspan
+						x="31" dy="1.2em" class="st3">ПО</tspan></text>		</g>
+		<g id="shape24-49" transform="translate(71.6713,-59.8113)">
+			<title>Динамическая соединительная линия</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape25-52" transform="translate(71.6713,-55.5593)">
+			<title>Динамическая соединительная линия.25</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape26-55" transform="translate(141.12,-59.8113)">
+			<title>Dynamic connector.26</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape27-58" transform="translate(141.12,-55.5593)">
+			<title>Динамическая соединительная линия.27</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape28-61" transform="translate(230.411,-59.8113)">
+			<title>Dynamic connector.28</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape29-64" transform="translate(230.411,-55.5593)">
+			<title>Динамическая соединительная линия.29</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape30-67" transform="translate(299.86,-59.8113)">
+			<title>Dynamic connector.30</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape31-70" transform="translate(299.86,-55.5593)">
+			<title>Динамическая соединительная линия.31</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape32-73" transform="translate(389.86,-59.8113)">
+			<title>Dynamic connector.32</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape33-76" transform="translate(389.86,-55.5593)">
+			<title>Динамическая соединительная линия.33</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape34-79" transform="translate(458.6,-59.1026)">
+			<title>Dynamic connector.34</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape35-82" transform="translate(458.6,-54.8506)">
+			<title>Динамическая соединительная линия.35</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape36-85" transform="translate(548.6,-59.8113)">
+			<title>Dynamic connector.36</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape37-88" transform="translate(548.6,-55.5593)">
+			<title>Динамическая соединительная линия.37</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape38-91" transform="translate(617.341,-59.1026)">
+			<title>Dynamic connector.38</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+		<g id="shape39-94" transform="translate(617.341,-54.8506)">
+			<title>Динамическая соединительная линия.39</title>
+			<path d="M0 93.31 L18.43 93.31" class="st5"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,2102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG Диаграмма Хореография.svg Страница-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="17.2182in" height="6.81518in" viewBox="0 0 1239.71 490.693" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st24">
+	<title>Incident Management as Choreography</title>
+	<desc>Extracted from BPMN 2.0 by Example (non-normative OMG document). We can take a closer look at the ping-pong-game of account manager, support agents and software developer by switching from a single-pool-model to a collaboration diagram.</desc>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {stroke:#000000;stroke-dasharray:0,6;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st3 {fill:#ffffff}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st5 {fill:#000000;font-family:Calibri;font-size:0.833336em}
+		.st6 {fill:#959595}
+		.st7 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st8 {fill:#7f7f7f;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st9 {font-size:1em}
+		.st10 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:4.08}
+		.st11 {fill:#000000;stroke:#000000;stroke-linecap:butt;stroke-width:0.75;visibility:hidden}
+		.st12 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.2}
+		.st13 {visibility:visible}
+		.st14 {marker-end:url(#mrkr4-870);stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st15 {fill:#c0c0c0;fill-opacity:1;stroke:#c0c0c0;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st16 {marker-end:url(#mrkr4-875);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st17 {fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1;stroke-width:0.22935779816514}
+		.st18 {fill:#ffffff;stroke:#000000;stroke-linecap:butt;stroke-width:0.75;visibility:hidden}
+		.st19 {fill:#ffffff;stroke:#000000;stroke-linecap:butt;stroke-width:2;visibility:hidden}
+		.st20 {fill:#121212;stroke:#121212;stroke-linecap:butt;stroke-width:0.2626}
+		.st21 {fill:#ffffff;stroke:#000000;stroke-linecap:butt;stroke-width:1.5;visibility:hidden}
+		.st22 {fill:none;stroke:none;stroke-linecap:butt;stroke-width:0.75}
+		.st23 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st24 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Markers">
+		<g id="lend4">
+			<path d="M 2 1 L 0 0 L 2 -1 L 2 1 " style="stroke:none"/>
+		</g>
+		<marker id="mrkr4-870" class="st15" refX="-8.72" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-4.36,-4.36) "/>
+		</marker>
+		<marker id="mrkr4-875" class="st17" refX="-8.72" orient="auto" markerUnits="strokeWidth" overflow="visible">
+			<use xlink:href="#lend4" transform="scale(-4.36,-4.36) "/>
+		</marker>
+	</defs>
+	<g>
+		<title>Страница-1</title>
+		<g id="group93-1" transform="translate(36.75,-380.346)">
+			<title>Choreography Task</title>
+			<desc>У клиента возникла проблема</desc>
+			<g id="shape94-2" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+			</g>
+			<g id="shape95-4" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+				<path d="M9 490.69 L9 519.04" class="st1"/>
+			</g>
+			<g id="shape96-7">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group97-9">
+				<title>participant_band_bottom_1</title>
+				<desc>Клиент</desc>
+				<g id="shape97-10">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st3"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="33.64" y="483.69" class="st5">Клиент</text>				</g>
+				<g id="shape98-16" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group99-18">
+				<title>participant_band_bottom_2</title>
+				<g id="shape99-19"/>
+				<g id="shape100-21" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group101-23">
+				<title>participant_band_bottom_3</title>
+				<g id="shape101-24"/>
+				<g id="shape102-26" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group103-28" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape103-29"/>
+				<g id="shape104-31" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group105-33">
+				<title>participant_band_bottom_4</title>
+				<g id="shape105-34"/>
+				<g id="shape106-36" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group107-38">
+				<title>participant_band_bottom_5</title>
+				<g id="shape107-39"/>
+				<g id="shape108-41" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group109-43" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape109-44"/>
+				<g id="shape110-46" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group111-48" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape111-49"/>
+			</g>
+			<g id="group112-51" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape113-52" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.113</title>
+				</g>
+				<g id="shape112-54"/>
+			</g>
+			<g id="group114-56" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Менеджер</desc>
+				<g id="shape114-57">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st6"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="25.43" y="483.69" class="st5">Менеджер</text>				</g>
+				<g id="shape115-63" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group116-65" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape116-66"/>
+			</g>
+			<g id="group117-68" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape117-69">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.42 L8.44 484.56 L16.88 478.42" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group118-73" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape118-74"/>
+				<g id="shape119-76" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group120-78" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape120-79"/>
+				<g id="shape121-81" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group122-83">
+				<title>attachment</title>
+				<g id="shape123-84">
+					<title>Лист.123</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape93-86">
+				<text x="5.45" y="451.69" class="st5">У клиента возникла <tspan x="25.86" dy="1.2em" class="st9">проблема</tspan></text>			</g>
+		</g>
+		<g id="group124-89" transform="translate(147.439,-380.346)">
+			<title>Choreography Task.124</title>
+			<desc>Получить описание проблемы</desc>
+			<g id="shape125-90" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+				<path d="M9 490.69 L9 462.35" class="st1"/>
+			</g>
+			<g id="shape126-93" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+				<path d="M9 490.69 L9 519.04" class="st1"/>
+			</g>
+			<g id="shape127-96">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group128-98">
+				<title>participant_band_bottom_1</title>
+				<desc>Клиент</desc>
+				<g id="shape128-99">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st6"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="33.64" y="483.69" class="st5">Клиент</text>				</g>
+				<g id="shape129-105" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group130-107">
+				<title>participant_band_bottom_2</title>
+				<g id="shape130-108"/>
+				<g id="shape131-110" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group132-112">
+				<title>participant_band_bottom_3</title>
+				<g id="shape132-113"/>
+				<g id="shape133-115" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group134-117" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape134-118"/>
+				<g id="shape135-120" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group136-122">
+				<title>participant_band_bottom_4</title>
+				<g id="shape136-123"/>
+				<g id="shape137-125" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group138-127">
+				<title>participant_band_bottom_5</title>
+				<g id="shape138-128"/>
+				<g id="shape139-130" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group140-132" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape140-133"/>
+				<g id="shape141-135" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group142-137" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape142-138"/>
+			</g>
+			<g id="group143-140" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape144-141" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.144</title>
+				</g>
+				<g id="shape143-143"/>
+			</g>
+			<g id="group145-145" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Менеджер</desc>
+				<g id="shape145-146">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st3"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="25.43" y="483.69" class="st5">Менеджер</text>				</g>
+				<g id="shape146-152" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group147-154" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape147-155">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.4 L8.44 484.55 L16.88 478.4" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group148-159" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape148-160">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69 Z" class="st6"/>
+					<path d="M0 478.42 L8.44 484.56 L16.88 478.42" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group149-164" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape149-165"/>
+				<g id="shape150-167" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group151-169" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape151-170"/>
+				<g id="shape152-172" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group153-174">
+				<title>attachment</title>
+				<g id="shape154-175">
+					<title>Лист.154</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape124-177">
+				<text x="5.87" y="451.69" class="st5">Получить описание <tspan x="24.92" dy="1.2em" class="st9">проблемы</tspan></text>			</g>
+		</g>
+		<g id="group155-180" transform="translate(291.108,-249.846)">
+			<title>Choreography Task.155</title>
+			<desc>Спросить у 1 линии техподдержки</desc>
+			<g id="shape156-181" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+				<path d="M9 490.69 L9 462.35" class="st1"/>
+			</g>
+			<g id="shape157-184" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+			</g>
+			<g id="shape158-186">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group159-188">
+				<title>participant_band_bottom_1</title>
+				<desc>Агент 1 линии</desc>
+				<g id="shape159-189">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st6"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 1 линии</text>				</g>
+				<g id="shape160-195" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group161-197">
+				<title>participant_band_bottom_2</title>
+				<g id="shape161-198"/>
+				<g id="shape162-200" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group163-202">
+				<title>participant_band_bottom_3</title>
+				<g id="shape163-203"/>
+				<g id="shape164-205" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group165-207" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape165-208"/>
+				<g id="shape166-210" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group167-212">
+				<title>participant_band_bottom_4</title>
+				<g id="shape167-213"/>
+				<g id="shape168-215" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group169-217">
+				<title>participant_band_bottom_5</title>
+				<g id="shape169-218"/>
+				<g id="shape170-220" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group171-222" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape171-223"/>
+				<g id="shape172-225" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group173-227" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape173-228"/>
+			</g>
+			<g id="group174-230" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape175-231" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.175</title>
+				</g>
+				<g id="shape174-233"/>
+			</g>
+			<g id="group176-235" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Менеджер</desc>
+				<g id="shape176-236">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st3"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="25.43" y="483.69" class="st5">Менеджер</text>				</g>
+				<g id="shape177-242" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group178-244" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape178-245">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.4 L8.44 484.55 L16.88 478.4" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group179-249" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape179-250"/>
+			</g>
+			<g id="group180-252" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape180-253"/>
+				<g id="shape181-255" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group182-257" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape182-258"/>
+				<g id="shape183-260" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group184-262">
+				<title>attachment</title>
+				<g id="shape185-263">
+					<title>Лист.185</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape155-265">
+				<text x="6.05" y="451.69" class="st5">Спросить у 1 линии <tspan x="16.21" dy="1.2em" class="st9">техподдержки</tspan></text>			</g>
+		</g>
+		<g id="group186-268" transform="translate(441.203,-139.756)">
+			<title>Choreography Task.186</title>
+			<desc>Спросить у 2 линии техподдержки</desc>
+			<g id="shape187-269" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+				<path d="M9 490.69 L9 462.35" class="st1"/>
+			</g>
+			<g id="shape188-272" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+			</g>
+			<g id="shape189-274">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group190-276">
+				<title>participant_band_bottom_1</title>
+				<desc>Агент 2 линии</desc>
+				<g id="shape190-277">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st6"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 2 линии</text>				</g>
+				<g id="shape191-283" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group192-285">
+				<title>participant_band_bottom_2</title>
+				<g id="shape192-286"/>
+				<g id="shape193-288" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group194-290">
+				<title>participant_band_bottom_3</title>
+				<g id="shape194-291"/>
+				<g id="shape195-293" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group196-295" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape196-296"/>
+				<g id="shape197-298" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group198-300">
+				<title>participant_band_bottom_4</title>
+				<g id="shape198-301"/>
+				<g id="shape199-303" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group200-305">
+				<title>participant_band_bottom_5</title>
+				<g id="shape200-306"/>
+				<g id="shape201-308" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group202-310" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape202-311"/>
+				<g id="shape203-313" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group204-315" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape204-316"/>
+			</g>
+			<g id="group205-318" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape206-319" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.206</title>
+				</g>
+				<g id="shape205-321"/>
+			</g>
+			<g id="group207-323" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Агент 1 линии</desc>
+				<g id="shape207-324">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st3"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 1 линии</text>				</g>
+				<g id="shape208-330" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group209-332" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape209-333">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.4 L8.44 484.55 L16.88 478.4" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group210-337" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape210-338"/>
+			</g>
+			<g id="group211-340" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape211-341"/>
+				<g id="shape212-343" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group213-345" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape213-346"/>
+				<g id="shape214-348" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group215-350">
+				<title>attachment</title>
+				<g id="shape216-351">
+					<title>Лист.216</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape186-353">
+				<text x="6.05" y="451.69" class="st5">Спросить у 2 линии <tspan x="16.21" dy="1.2em" class="st9">техподдержки</tspan></text>			</g>
+		</g>
+		<g id="group217-356" transform="translate(588.108,-38.3465)">
+			<title>Choreography Task.217</title>
+			<desc>Спросить разработчика ПО</desc>
+			<g id="shape218-357" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+				<path d="M9 490.69 L9 462.35" class="st1"/>
+			</g>
+			<g id="shape219-360" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+			</g>
+			<g id="shape220-362">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group221-364">
+				<title>participant_band_bottom_1</title>
+				<desc>Разработчик ПО</desc>
+				<g id="shape221-365">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st6"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="14.44" y="483.69" class="st5">Разработчик ПО</text>				</g>
+				<g id="shape222-371" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group223-373">
+				<title>participant_band_bottom_2</title>
+				<g id="shape223-374"/>
+				<g id="shape224-376" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group225-378">
+				<title>participant_band_bottom_3</title>
+				<g id="shape225-379"/>
+				<g id="shape226-381" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group227-383" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape227-384"/>
+				<g id="shape228-386" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group229-388">
+				<title>participant_band_bottom_4</title>
+				<g id="shape229-389"/>
+				<g id="shape230-391" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group231-393">
+				<title>participant_band_bottom_5</title>
+				<g id="shape231-394"/>
+				<g id="shape232-396" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group233-398" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape233-399"/>
+				<g id="shape234-401" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group235-403" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape235-404"/>
+			</g>
+			<g id="group236-406" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape237-407" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.237</title>
+				</g>
+				<g id="shape236-409"/>
+			</g>
+			<g id="group238-411" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Агент 2 линии</desc>
+				<g id="shape238-412">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st3"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 2 линии</text>				</g>
+				<g id="shape239-418" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group240-420" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape240-421">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.4 L8.44 484.55 L16.88 478.4" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group241-425" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape241-426"/>
+			</g>
+			<g id="group242-428" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape242-429"/>
+				<g id="shape243-431" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group244-433" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape244-434"/>
+				<g id="shape245-436" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group246-438">
+				<title>attachment</title>
+				<g id="shape247-439">
+					<title>Лист.247</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape217-441">
+				<text x="27.57" y="451.69" class="st5">Спросить <tspan x="10.5" dy="1.2em" class="st9">разработчика ПО</tspan></text>			</g>
+		</g>
+		<g id="group248-444" transform="translate(702.203,-38.3465)">
+			<title>Choreography Task.248</title>
+			<desc>Предоставить ответ техподдержке</desc>
+			<g id="shape249-445" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+			</g>
+			<g id="shape250-447" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+				<path d="M9 490.69 L9 519.04" class="st1"/>
+			</g>
+			<g id="shape251-450">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group252-452">
+				<title>participant_band_bottom_1</title>
+				<desc>Разработчик ПО</desc>
+				<g id="shape252-453">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st3"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="14.44" y="483.69" class="st5">Разработчик ПО</text>				</g>
+				<g id="shape253-459" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group254-461">
+				<title>participant_band_bottom_2</title>
+				<g id="shape254-462"/>
+				<g id="shape255-464" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group256-466">
+				<title>participant_band_bottom_3</title>
+				<g id="shape256-467"/>
+				<g id="shape257-469" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group258-471" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape258-472"/>
+				<g id="shape259-474" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group260-476">
+				<title>participant_band_bottom_4</title>
+				<g id="shape260-477"/>
+				<g id="shape261-479" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group262-481">
+				<title>participant_band_bottom_5</title>
+				<g id="shape262-482"/>
+				<g id="shape263-484" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group264-486" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape264-487"/>
+				<g id="shape265-489" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group266-491" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape266-492"/>
+			</g>
+			<g id="group267-494" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape268-495" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.268</title>
+				</g>
+				<g id="shape267-497"/>
+			</g>
+			<g id="group269-499" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Агент 2 линии</desc>
+				<g id="shape269-500">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st6"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 2 линии</text>				</g>
+				<g id="shape270-506" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group271-508" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape271-509"/>
+			</g>
+			<g id="group272-511" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape272-512">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.42 L8.44 484.56 L16.88 478.42" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group273-516" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape273-517"/>
+				<g id="shape274-519" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group275-521" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape275-522"/>
+				<g id="shape276-524" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group277-526">
+				<title>attachment</title>
+				<g id="shape278-527">
+					<title>Лист.278</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape248-529">
+				<text x="5.2" y="451.69" class="st5">Предоставить ответ <tspan x="16.43" dy="1.2em" class="st9">техподдержке</tspan></text>			</g>
+		</g>
+		<g id="group279-532" transform="translate(827.405,-139.596)">
+			<title>Choreography Task.279</title>
+			<desc>Предоставить ответ для 1 Агента линии</desc>
+			<g id="shape280-533" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+			</g>
+			<g id="shape281-535" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+				<path d="M9 490.69 L9 519.04" class="st1"/>
+			</g>
+			<g id="shape282-538">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group283-540">
+				<title>participant_band_bottom_1</title>
+				<desc>Агент 2 линии</desc>
+				<g id="shape283-541">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st3"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 2 линии</text>				</g>
+				<g id="shape284-547" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group285-549">
+				<title>participant_band_bottom_2</title>
+				<g id="shape285-550"/>
+				<g id="shape286-552" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group287-554">
+				<title>participant_band_bottom_3</title>
+				<g id="shape287-555"/>
+				<g id="shape288-557" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group289-559" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape289-560"/>
+				<g id="shape290-562" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group291-564">
+				<title>participant_band_bottom_4</title>
+				<g id="shape291-565"/>
+				<g id="shape292-567" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group293-569">
+				<title>participant_band_bottom_5</title>
+				<g id="shape293-570"/>
+				<g id="shape294-572" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group295-574" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape295-575"/>
+				<g id="shape296-577" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group297-579" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape297-580"/>
+			</g>
+			<g id="group298-582" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape299-583" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.299</title>
+				</g>
+				<g id="shape298-585"/>
+			</g>
+			<g id="group300-587" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Агент 1 линии</desc>
+				<g id="shape300-588">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st6"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 1 линии</text>				</g>
+				<g id="shape301-594" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group302-596" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape302-597"/>
+			</g>
+			<g id="group303-599" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape303-600">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.42 L8.44 484.56 L16.88 478.42" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group304-604" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape304-605"/>
+				<g id="shape305-607" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group306-609" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape306-610"/>
+				<g id="shape307-612" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group308-614">
+				<title>attachment</title>
+				<g id="shape309-615">
+					<title>Лист.309</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape279-617">
+				<text x="5.2" y="451.69" class="st5">Предоставить ответ <tspan x="6.12" dy="1.2em" class="st9">для </tspan>1 Агента линии</text>			</g>
+		</g>
+		<g id="group310-620" transform="translate(951.811,-249.846)">
+			<title>Choreography Task.310</title>
+			<desc>Предоставить ответ менеджеру</desc>
+			<g id="shape311-621" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+			</g>
+			<g id="shape312-623" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+				<path d="M9 490.69 L9 519.04" class="st1"/>
+			</g>
+			<g id="shape313-626">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group314-628">
+				<title>participant_band_bottom_1</title>
+				<desc>Агент 1 линии</desc>
+				<g id="shape314-629">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st3"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="18.86" y="483.69" class="st5">Агент 1 линии</text>				</g>
+				<g id="shape315-635" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group316-637">
+				<title>participant_band_bottom_2</title>
+				<g id="shape316-638"/>
+				<g id="shape317-640" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group318-642">
+				<title>participant_band_bottom_3</title>
+				<g id="shape318-643"/>
+				<g id="shape319-645" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group320-647" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape320-648"/>
+				<g id="shape321-650" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group322-652">
+				<title>participant_band_bottom_4</title>
+				<g id="shape322-653"/>
+				<g id="shape323-655" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group324-657">
+				<title>participant_band_bottom_5</title>
+				<g id="shape324-658"/>
+				<g id="shape325-660" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group326-662" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape326-663"/>
+				<g id="shape327-665" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group328-667" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape328-668"/>
+			</g>
+			<g id="group329-670" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape330-671" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.330</title>
+				</g>
+				<g id="shape329-673"/>
+			</g>
+			<g id="group331-675" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Менеджер</desc>
+				<g id="shape331-676">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st6"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="25.43" y="483.69" class="st5">Менеджер</text>				</g>
+				<g id="shape332-682" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group333-684" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape333-685"/>
+			</g>
+			<g id="group334-687" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape334-688">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.42 L8.44 484.56 L16.88 478.42" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.42 L0 478.42 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group335-692" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape335-693"/>
+				<g id="shape336-695" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group337-697" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape337-698"/>
+				<g id="shape338-700" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group339-702">
+				<title>attachment</title>
+				<g id="shape340-703">
+					<title>Лист.340</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape310-705">
+				<text x="5.2" y="451.69" class="st5">Предоставить ответ <tspan x="22.56" dy="1.2em" class="st9">менеджеру</tspan></text>			</g>
+		</g>
+		<g id="group341-708" transform="translate(1075.7,-380.346)">
+			<title>Choreography Task.341</title>
+			<desc>Объяснить решение</desc>
+			<g id="shape342-709" transform="translate(39.7028,-72)">
+				<title>top_link_decorator</title>
+				<path d="M9 490.69 L9 462.35" class="st1"/>
+			</g>
+			<g id="shape343-712" transform="translate(39.7028,0)">
+				<title>bottom_link_decorator</title>
+			</g>
+			<g id="shape344-714">
+				<title>activity</title>
+				<rect x="0" y="418.693" width="97.4055" height="72" rx="5.66929" ry="5.66929" class="st2"/>
+			</g>
+			<g id="group345-716">
+				<title>participant_band_bottom_1</title>
+				<desc>Клиент</desc>
+				<g id="shape345-717">
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69 L0 470.69 L0 485.02
+								 A5.66929 5.66929 -180 0 0 5.67 490.69 Z" class="st6"/>
+					<path d="M5.67 490.69 L91.74 490.69 A5.66929 5.66929 -180 0 0 97.41 485.02 L97.41 470.69" class="st4"/>
+					<path d="M0 470.69 L0 485.02 A5.66929 5.66929 -180 0 0 5.67 490.69" class="st4"/>
+					<path d="M0 470.69 L97.41 470.69" class="st4"/>
+					<text x="33.64" y="483.69" class="st5">Клиент</text>				</g>
+				<g id="shape346-723" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group347-725">
+				<title>participant_band_bottom_2</title>
+				<g id="shape347-726"/>
+				<g id="shape348-728" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group349-730">
+				<title>participant_band_bottom_3</title>
+				<g id="shape349-731"/>
+				<g id="shape350-733" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group351-735" transform="translate(0,-52)">
+				<title>participant_band_top_3</title>
+				<g id="shape351-736"/>
+				<g id="shape352-738" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group353-740">
+				<title>participant_band_bottom_4</title>
+				<g id="shape353-741"/>
+				<g id="shape354-743" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group355-745">
+				<title>participant_band_bottom_5</title>
+				<g id="shape355-746"/>
+				<g id="shape356-748" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group357-750" transform="translate(0,-52)">
+				<title>participant_band_top_5</title>
+				<g id="shape357-751"/>
+				<g id="shape358-753" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group359-755" transform="translate(44.4508,-23.1217)">
+				<title>plus</title>
+				<g id="shape359-756"/>
+			</g>
+			<g id="group360-758" transform="translate(44.4508,-23.1217)">
+				<title>loop</title>
+				<g id="shape361-759" transform="translate(0.0667559,-0.613134)">
+					<title>Лист.361</title>
+				</g>
+				<g id="shape360-761"/>
+			</g>
+			<g id="group362-763" transform="translate(0,-51.9964)">
+				<title>participant_band_top_1</title>
+				<desc>Менеджер</desc>
+				<g id="shape362-764">
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69 L0 490.69 Z" class="st3"/>
+					<path d="M0 490.69 L0 476.36 A5.66929 5.66929 0 0 1 5.67 470.69 L91.74 470.69 A5.66929 5.66929 0 0 1 97.41 476.36
+								 L97.41 490.69" class="st4"/>
+					<path d="" class="st4"/>
+					<path d="M0 490.69 L97.41 490.69" class="st4"/>
+					<text x="25.43" y="483.69" class="st5">Менеджер</text>				</g>
+				<g id="shape363-770" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group364-772" transform="translate(40.2644,-94.2013)">
+				<title>top_enveloppe</title>
+				<g id="shape364-773">
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69 Z" class="st3"/>
+					<path d="M0 478.4 L8.44 484.55 L16.88 478.4" class="st7"/>
+					<path d="M0 490.69 L16.88 490.69 L16.88 478.4 L0 478.4 L0 490.69" class="st7"/>
+				</g>
+			</g>
+			<g id="group365-777" transform="translate(40.2644,34.4809)">
+				<title>bottom_enveloppe</title>
+				<g id="shape365-778"/>
+			</g>
+			<g id="group366-780" transform="translate(0,-52)">
+				<title>participant_band_top_2</title>
+				<g id="shape366-781"/>
+				<g id="shape367-783" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group368-785" transform="translate(0,-52)">
+				<title>participant_band_top_4</title>
+				<g id="shape368-786"/>
+				<g id="shape369-788" transform="translate(44.4508,-1.41732)">
+					<title>multiinstance</title>
+				</g>
+			</g>
+			<g id="group370-790">
+				<title>attachment</title>
+				<g id="shape371-791">
+					<title>Лист.371</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape341-793">
+				<text x="4.16" y="457.69" class="st5">Объяснить решение</text>			</g>
+		</g>
+		<g id="group406-795" transform="translate(1188.06,-404.299)">
+			<title>End Event</title>
+			<g id="shape407-796" transform="translate(0.28311,-0.28311)">
+				<title>Лист.407</title>
+				<ellipse cx="11.9063" cy="478.787" rx="11.9063" ry="11.9063" class="st10"/>
+			</g>
+			<g id="group408-798" transform="translate(-334.925,139.691) rotate(-45)">
+				<title>cancel</title>
+				<g id="shape408-799"/>
+			</g>
+			<g id="group409-801" transform="translate(5.81088,-7.79577)">
+				<title>compensation</title>
+				<g id="shape409-802"/>
+			</g>
+			<g id="group410-804" transform="translate(6.37781,-6.37781)">
+				<title>Error</title>
+				<g id="shape411-805" transform="translate(1.26151,-0.625908)">
+					<title>Лист.411</title>
+				</g>
+				<g id="shape412-807">
+					<title>Лист.412</title>
+				</g>
+			</g>
+			<g id="group413-809" transform="translate(7.79577,-7.79577)">
+				<title>terminate</title>
+				<g id="shape413-810">
+					<ellipse cx="4.25147" cy="486.441" rx="4.25147" ry="4.25147" class="st11"/>
+				</g>
+			</g>
+			<g id="group414-812" transform="translate(6.02362,-6.26457)">
+				<title>multiple</title>
+				<g id="shape414-813"/>
+			</g>
+			<g id="group415-815" transform="translate(6.37902,-6.94594)">
+				<title>escalation_catch</title>
+				<g id="shape415-816"/>
+			</g>
+			<g id="group416-818" transform="translate(6.37781,-7.79577)">
+				<title>message_throw</title>
+				<g id="shape416-819"/>
+			</g>
+			<g id="group417-821" transform="translate(6.02362,-7.22835)">
+				<title>signal</title>
+				<g id="group418-822">
+					<title>Лист.418</title>
+					<g id="shape419-823">
+						<title>Лист.419</title>
+					</g>
+				</g>
+			</g>
+			<g id="group420-825">
+				<title>attachment</title>
+				<g id="shape421-826">
+					<title>Лист.421</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group422-828" transform="translate(0.75,-404.988)">
+			<title>Start Event</title>
+			<g id="shape423-829">
+				<title>event</title>
+				<ellipse cx="11.3583" cy="479.335" rx="11.3583" ry="11.3583" class="st12"/>
+			</g>
+			<g id="group424-831" transform="translate(5.2441,-7.22612)">
+				<title>compensation</title>
+				<g id="shape424-832"/>
+			</g>
+			<g id="group425-834" transform="translate(5.67913,-6.24605)">
+				<title>escalation_catch</title>
+				<g id="shape425-835"/>
+			</g>
+			<g id="group426-837" transform="translate(5.80975,-7.22612)">
+				<title>Message</title>
+				<g id="shape426-838"/>
+			</g>
+			<g id="group427-840" transform="translate(5.67913,-5.90629)">
+				<title>multiple</title>
+				<g id="shape427-841"/>
+			</g>
+			<g id="group428-843" transform="translate(5.67913,-5.67913)">
+				<title>parallel_multiple</title>
+				<g id="shape428-844"/>
+			</g>
+			<g id="group429-846" transform="translate(5.67913,-6.81495)">
+				<title>signal</title>
+				<g id="shape429-847"/>
+			</g>
+			<g id="group430-849" transform="translate(5.67913,-5.67913)">
+				<title>timer</title>
+				<g id="shape430-850"/>
+			</g>
+			<g id="group431-852" transform="translate(5.67913,-5.67913)">
+				<title>conditional</title>
+				<g id="shape431-853"/>
+			</g>
+			<g id="group432-855" transform="translate(5.69503,-6.15617)">
+				<title>Error</title>
+				<g id="shape433-856" transform="translate(1.26366,-0.626978)">
+					<title>Лист.433</title>
+				</g>
+				<g id="shape434-858">
+					<title>Лист.434</title>
+				</g>
+			</g>
+			<g id="group435-860">
+				<title>attachment</title>
+				<g id="shape436-861">
+					<title>Лист.436</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group537-863" transform="translate(131.797,-407.346)">
+			<title>Sequence Flow</title>
+			<g id="shape537-864">
+				<g id="shadow537-865" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M2.36 481.69 L9.1 481.69" class="st14"/>
+				</g>
+				<path d="M2.36 481.69 L9.1 481.69" class="st16"/>
+			</g>
+			<g id="group538-876" transform="translate(0.5616,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape538-877"/>
+			</g>
+			<g id="group539-879">
+				<title>attachment</title>
+				<g id="shape540-880">
+					<title>Лист.540</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group541-882" transform="translate(242.486,-407.346)">
+			<title>Sequence Flow.541</title>
+			<g id="shape541-883">
+				<g id="shadow541-884" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M2.36 481.69 L9.1 481.69" class="st14"/>
+				</g>
+				<path d="M2.36 481.69 L9.1 481.69" class="st16"/>
+			</g>
+			<g id="group542-893" transform="translate(0.5616,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape542-894"/>
+			</g>
+			<g id="group543-896">
+				<title>attachment</title>
+				<g id="shape544-897">
+					<title>Лист.544</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group545-899" transform="translate(21.1083,-407.346)">
+			<title>Sequence Flow.545</title>
+			<g id="shape545-900">
+				<g id="shadow545-901" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M2.36 481.69 L9.1 481.69" class="st14"/>
+				</g>
+				<path d="M2.36 481.69 L9.1 481.69" class="st16"/>
+			</g>
+			<g id="group546-910" transform="translate(0.5616,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape546-911"/>
+			</g>
+			<g id="group547-913">
+				<title>attachment</title>
+				<g id="shape548-914">
+					<title>Лист.548</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group557-916" transform="translate(258.128,-400.756)">
+			<title>Gateway.557</title>
+			<desc>Могу решить проблему сам?</desc>
+			<g id="shape558-917">
+				<title>Gateway</title>
+				<path d="M15.59 490.69 L31.18 475.1 L15.59 459.51 L0 475.1 L15.59 490.69 Z" class="st12"/>
+			</g>
+			<g id="group559-919" transform="translate(7.08746,-7.08746)">
+				<title>event_instantiate</title>
+				<g id="shape560-920">
+					<title>Лист.560</title>
+				</g>
+				<g id="shape561-922" transform="translate(3.43185,-3.67673)">
+					<title>Лист.561</title>
+				</g>
+			</g>
+			<g id="group562-924" transform="translate(6.37809,-6.37809)">
+				<title>event</title>
+				<g id="shape563-925">
+					<title>Лист.563</title>
+					<ellipse cx="9.21246" cy="481.48" rx="9.21246" ry="9.21246" class="st18"/>
+				</g>
+				<g id="shape564-927" transform="translate(2.30127,-2.30311)">
+					<title>Лист.564</title>
+				</g>
+				<g id="shape565-929" transform="translate(4.86049,-5.07422)">
+					<title>Лист.565</title>
+				</g>
+			</g>
+			<g id="group566-931" transform="translate(7.79528,-7.79528)">
+				<title>parallel</title>
+				<g id="shape566-932"/>
+			</g>
+			<g id="group567-934" transform="translate(7.79528,-7.79528)">
+				<title>inclusive</title>
+				<g id="shape567-935">
+					<ellipse cx="7.79528" cy="482.898" rx="7.79528" ry="7.79528" class="st19"/>
+				</g>
+			</g>
+			<g id="group568-937" transform="translate(8.50465,-8.50465)">
+				<title>marker</title>
+				<g id="shape568-938">
+					<path d="M3.39 476.52 L5.6 479.54 C6.17 480.36 6.65 481.06 7.16 481.85 L7.26 481.85 C7.77 481.03 8.28 480.3 8.83
+								 479.54 L10.97 476.52 L14.04 476.52 L8.77 483.37 L14.17 490.69 L10.97 490.69 L8.7 487.5 C8.09 486.68
+								 7.58 485.89 7.04 485.04 L6.97 485.04 C6.46 485.89 5.92 486.65 5.34 487.5 L3.1 490.69 L0 490.69 L5.5
+								 483.46 L0.26 476.52 L3.39 476.52 Z" class="st20"/>
+				</g>
+			</g>
+			<g id="group569-940" transform="translate(7.08746,-7.08746)">
+				<title>event_parallel</title>
+				<g id="shape570-941">
+					<title>Лист.570</title>
+					<ellipse cx="8.50309" cy="482.19" rx="8.50309" ry="8.50309" class="st21"/>
+				</g>
+				<g id="shape571-943" transform="translate(2.6215,-2.6215)">
+					<title>Лист.571</title>
+				</g>
+				<g id="shape572-945" transform="translate(2.6215,-2.6215)">
+					<title>Лист.572</title>
+				</g>
+			</g>
+			<g id="group573-947" transform="translate(7.79528,-7.79528)">
+				<title>complex</title>
+				<g id="group574-948">
+					<title>Лист.574</title>
+					<g id="shape575-949" transform="translate(498.488,475.102) rotate(90)">
+						<title>Лист.575</title>
+					</g>
+					<g id="shape576-951" transform="translate(349.249,130.407) rotate(44.9988)">
+						<title>Лист.576</title>
+					</g>
+					<g id="shape577-953" transform="translate(0,-7.79447)">
+						<title>Лист.577</title>
+					</g>
+					<g id="shape578-955" transform="translate(-344.681,141.429) rotate(-44.9988)">
+						<title>Лист.578</title>
+					</g>
+				</g>
+			</g>
+			<g id="group579-957">
+				<title>attachment</title>
+				<g id="shape580-958">
+					<title>Лист.580</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape557-960">
+				<text x="-2.41" y="441.75" class="st5">Могу решить <tspan x="-7.18" dy="1.2em" class="st9">проблему сам</tspan>?</text>			</g>
+		</g>
+		<g id="group581-963" transform="translate(289.309,-407.346)">
+			<title>Sequence Flow.581</title>
+			<g id="shape581-964">
+				<g id="shadow581-965" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 481.69 L779.85 481.69" class="st14"/>
+				</g>
+				<path d="M0 481.69 L779.85 481.69" class="st16"/>
+			</g>
+			<g id="group582-974" transform="translate(384.758,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape582-975"/>
+			</g>
+			<g id="group583-977">
+				<title>attachment</title>
+				<g id="shape584-978">
+					<title>Лист.584</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group585-980" transform="translate(273.413,-400.756)">
+			<title>Sequence Flow.585</title>
+			<g id="shape585-981">
+				<g id="shadow585-982" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0.31 490.69 L0.31 599.93 A5.66929 5.66929 -180 0 0 5.97 605.6 L11.15 605.6" class="st14"/>
+				</g>
+				<path d="M0.31 490.69 L0.31 599.93 A5.66929 5.66929 -180 0 0 5.97 605.6 L11.15 605.6" class="st16"/>
+			</g>
+			<g id="group586-991" transform="translate(-8.13324,72.284)">
+				<title>enveloppe</title>
+				<g id="shape586-992"/>
+			</g>
+			<g id="group587-994">
+				<title>attachment</title>
+				<g id="shape588-995">
+					<title>Лист.588</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group589-997" transform="translate(403.927,-270.256)">
+			<title>Gateway</title>
+			<desc>Результат?</desc>
+			<g id="shape590-998">
+				<title>Gateway</title>
+				<path d="M15.59 490.69 L31.18 475.1 L15.59 459.51 L0 475.1 L15.59 490.69 Z" class="st12"/>
+			</g>
+			<g id="group591-1000" transform="translate(7.08746,-7.08746)">
+				<title>event_instantiate</title>
+				<g id="shape592-1001">
+					<title>Лист.592</title>
+				</g>
+				<g id="shape593-1003" transform="translate(3.43185,-3.67673)">
+					<title>Лист.593</title>
+				</g>
+			</g>
+			<g id="group594-1005" transform="translate(6.37809,-6.37809)">
+				<title>event</title>
+				<g id="shape595-1006">
+					<title>Лист.595</title>
+					<ellipse cx="9.21246" cy="481.48" rx="9.21246" ry="9.21246" class="st18"/>
+				</g>
+				<g id="shape596-1008" transform="translate(2.30127,-2.30311)">
+					<title>Лист.596</title>
+				</g>
+				<g id="shape597-1010" transform="translate(4.86049,-5.07422)">
+					<title>Лист.597</title>
+				</g>
+			</g>
+			<g id="group598-1012" transform="translate(7.79528,-7.79528)">
+				<title>parallel</title>
+				<g id="shape598-1013"/>
+			</g>
+			<g id="group599-1015" transform="translate(7.79528,-7.79528)">
+				<title>inclusive</title>
+				<g id="shape599-1016">
+					<ellipse cx="7.79528" cy="482.898" rx="7.79528" ry="7.79528" class="st19"/>
+				</g>
+			</g>
+			<g id="group600-1018" transform="translate(8.50465,-8.50465)">
+				<title>marker</title>
+				<g id="shape600-1019">
+					<path d="M3.39 476.52 L5.6 479.54 C6.17 480.36 6.65 481.06 7.16 481.85 L7.26 481.85 C7.77 481.03 8.28 480.3 8.83
+								 479.54 L10.97 476.52 L14.04 476.52 L8.77 483.37 L14.17 490.69 L10.97 490.69 L8.7 487.5 C8.09 486.68
+								 7.58 485.89 7.04 485.04 L6.97 485.04 C6.46 485.89 5.92 486.65 5.34 487.5 L3.1 490.69 L0 490.69 L5.5
+								 483.46 L0.26 476.52 L3.39 476.52 Z" class="st20"/>
+				</g>
+			</g>
+			<g id="group601-1021" transform="translate(7.08746,-7.08746)">
+				<title>event_parallel</title>
+				<g id="shape602-1022">
+					<title>Лист.602</title>
+					<ellipse cx="8.50309" cy="482.19" rx="8.50309" ry="8.50309" class="st21"/>
+				</g>
+				<g id="shape603-1024" transform="translate(2.6215,-2.6215)">
+					<title>Лист.603</title>
+				</g>
+				<g id="shape604-1026" transform="translate(2.6215,-2.6215)">
+					<title>Лист.604</title>
+				</g>
+			</g>
+			<g id="group605-1028" transform="translate(7.79528,-7.79528)">
+				<title>complex</title>
+				<g id="group606-1029">
+					<title>Лист.606</title>
+					<g id="shape607-1030" transform="translate(498.488,475.102) rotate(90)">
+						<title>Лист.607</title>
+					</g>
+					<g id="shape608-1032" transform="translate(349.249,130.407) rotate(44.9988)">
+						<title>Лист.608</title>
+					</g>
+					<g id="shape609-1034" transform="translate(0,-7.79447)">
+						<title>Лист.609</title>
+					</g>
+					<g id="shape610-1036" transform="translate(-344.681,141.429) rotate(-44.9988)">
+						<title>Лист.610</title>
+					</g>
+				</g>
+			</g>
+			<g id="group611-1038">
+				<title>attachment</title>
+				<g id="shape612-1039">
+					<title>Лист.612</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape589-1041">
+				<text x="-4.93" y="451.1" class="st5">Результат?</text>			</g>
+		</g>
+		<g id="group613-1043" transform="translate(387.22,-276.846)">
+			<title>Sequence Flow.613</title>
+			<g id="shape613-1044">
+				<g id="shadow613-1045" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M1.29 481.69 L10.17 481.69" class="st14"/>
+				</g>
+				<path d="M1.29 481.69 L10.17 481.69" class="st16"/>
+			</g>
+			<g id="group614-1054" transform="translate(0.5616,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape614-1055"/>
+			</g>
+			<g id="group615-1057">
+				<title>attachment</title>
+				<g id="shape616-1058">
+					<title>Лист.616</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group617-1060" transform="translate(419.518,-270.256)">
+			<title>Sequence Flow.617</title>
+			<g id="shape617-1061">
+				<g id="shadow617-1062" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 490.69 L0 579.52 A5.66929 5.66929 -180 0 0 5.67 585.19 L15.15 585.19" class="st14"/>
+				</g>
+				<path d="M0 490.69 L0 579.52 A5.66929 5.66929 -180 0 0 5.67 585.19 L15.15 585.19" class="st16"/>
+			</g>
+			<g id="group618-1071" transform="translate(-8.4384,64.2269)">
+				<title>enveloppe</title>
+				<g id="shape618-1072"/>
+			</g>
+			<g id="group619-1074">
+				<title>attachment</title>
+				<g id="shape620-1075">
+					<title>Лист.620</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group621-1077" transform="translate(554.518,-160.165)">
+			<title>Gateway.621</title>
+			<desc>Уверен?</desc>
+			<g id="shape622-1078">
+				<title>Gateway</title>
+				<path d="M15.59 490.69 L31.18 475.1 L15.59 459.51 L0 475.1 L15.59 490.69 Z" class="st12"/>
+			</g>
+			<g id="group623-1080" transform="translate(7.08746,-7.08746)">
+				<title>event_instantiate</title>
+				<g id="shape624-1081">
+					<title>Лист.624</title>
+				</g>
+				<g id="shape625-1083" transform="translate(3.43185,-3.67673)">
+					<title>Лист.625</title>
+				</g>
+			</g>
+			<g id="group626-1085" transform="translate(6.37809,-6.37809)">
+				<title>event</title>
+				<g id="shape627-1086">
+					<title>Лист.627</title>
+					<ellipse cx="9.21246" cy="481.48" rx="9.21246" ry="9.21246" class="st18"/>
+				</g>
+				<g id="shape628-1088" transform="translate(2.30127,-2.30311)">
+					<title>Лист.628</title>
+				</g>
+				<g id="shape629-1090" transform="translate(4.86049,-5.07422)">
+					<title>Лист.629</title>
+				</g>
+			</g>
+			<g id="group630-1092" transform="translate(7.79528,-7.79528)">
+				<title>parallel</title>
+				<g id="shape630-1093"/>
+			</g>
+			<g id="group631-1095" transform="translate(7.79528,-7.79528)">
+				<title>inclusive</title>
+				<g id="shape631-1096">
+					<ellipse cx="7.79528" cy="482.898" rx="7.79528" ry="7.79528" class="st19"/>
+				</g>
+			</g>
+			<g id="group632-1098" transform="translate(8.50465,-8.50465)">
+				<title>marker</title>
+				<g id="shape632-1099">
+					<path d="M3.39 476.52 L5.6 479.54 C6.17 480.36 6.65 481.06 7.16 481.85 L7.26 481.85 C7.77 481.03 8.28 480.3 8.83
+								 479.54 L10.97 476.52 L14.04 476.52 L8.77 483.37 L14.17 490.69 L10.97 490.69 L8.7 487.5 C8.09 486.68
+								 7.58 485.89 7.04 485.04 L6.97 485.04 C6.46 485.89 5.92 486.65 5.34 487.5 L3.1 490.69 L0 490.69 L5.5
+								 483.46 L0.26 476.52 L3.39 476.52 Z" class="st20"/>
+				</g>
+			</g>
+			<g id="group633-1101" transform="translate(7.08746,-7.08746)">
+				<title>event_parallel</title>
+				<g id="shape634-1102">
+					<title>Лист.634</title>
+					<ellipse cx="8.50309" cy="482.19" rx="8.50309" ry="8.50309" class="st21"/>
+				</g>
+				<g id="shape635-1104" transform="translate(2.6215,-2.6215)">
+					<title>Лист.635</title>
+				</g>
+				<g id="shape636-1106" transform="translate(2.6215,-2.6215)">
+					<title>Лист.636</title>
+				</g>
+			</g>
+			<g id="group637-1108" transform="translate(7.79528,-7.79528)">
+				<title>complex</title>
+				<g id="group638-1109">
+					<title>Лист.638</title>
+					<g id="shape639-1110" transform="translate(498.488,475.102) rotate(90)">
+						<title>Лист.639</title>
+					</g>
+					<g id="shape640-1112" transform="translate(349.249,130.407) rotate(44.9988)">
+						<title>Лист.640</title>
+					</g>
+					<g id="shape641-1114" transform="translate(0,-7.79447)">
+						<title>Лист.641</title>
+					</g>
+					<g id="shape642-1116" transform="translate(-344.681,141.429) rotate(-44.9988)">
+						<title>Лист.642</title>
+					</g>
+				</g>
+			</g>
+			<g id="group643-1118">
+				<title>attachment</title>
+				<g id="shape644-1119">
+					<title>Лист.644</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+			<g id="shape621-1121">
+				<text x="-2.19" y="451.26" class="st5">Уверен?</text>			</g>
+		</g>
+		<g id="group653-1123" transform="translate(537.563,-166.756)">
+			<title>Sequence Flow.653</title>
+			<g id="shape653-1124">
+				<g id="shadow653-1125" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M1.05 481.69 L10.41 481.69" class="st14"/>
+				</g>
+				<path d="M1.05 481.69 L10.41 481.69" class="st16"/>
+			</g>
+			<g id="group654-1134" transform="translate(0.5616,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape654-1135"/>
+			</g>
+			<g id="group655-1137">
+				<title>attachment</title>
+				<g id="shape656-1138">
+					<title>Лист.656</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group657-1140" transform="translate(570.108,-160.165)">
+			<title>Sequence Flow.657</title>
+			<g id="shape657-1141">
+				<g id="shadow657-1142" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 490.69 L0 570.84 A5.66929 5.66929 -180 0 0 5.67 576.51 L11.46 576.51" class="st14"/>
+				</g>
+				<path d="M0 490.69 L0 570.84 A5.66929 5.66929 -180 0 0 5.67 576.51 L11.46 576.51" class="st16"/>
+			</g>
+			<g id="group658-1151" transform="translate(-8.4384,58.0438)">
+				<title>enveloppe</title>
+				<g id="shape658-1152"/>
+			</g>
+			<g id="group659-1154">
+				<title>attachment</title>
+				<g id="shape660-1155">
+					<title>Лист.660</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group661-1157" transform="translate(684.858,-65.3465)">
+			<title>Sequence Flow.661</title>
+			<g id="shape661-1158">
+				<g id="shadow661-1159" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0.66 481.69 L10.8 481.69" class="st14"/>
+				</g>
+				<path d="M0.66 481.69 L10.8 481.69" class="st16"/>
+			</g>
+			<g id="group662-1168" transform="translate(0.529132,-2.94564)">
+				<title>enveloppe</title>
+				<g id="shape662-1169"/>
+			</g>
+			<g id="group663-1171">
+				<title>attachment</title>
+				<g id="shape664-1172">
+					<title>Лист.664</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group666-1174" transform="translate(799.608,-74.3465)">
+			<title>Sequence Flow.666</title>
+			<g id="shape666-1175">
+				<g id="shadow666-1176" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 490.69 L7.83 490.69 A5.66929 5.66929 -180 0 0 13.5 485.02 L13.5 407.11 A5.66929 5.66929 0 0 1 19.17
+								 401.44 L21.26 401.44" class="st14"/>
+				</g>
+				<path d="M0 490.69 L7.83 490.69 A5.66929 5.66929 -180 0 0 13.5 485.02 L13.5 407.11 A5.66929 5.66929 0 0 1 19.17 401.44
+							 L21.26 401.44" class="st16"/>
+			</g>
+			<g id="group667-1185" transform="translate(5.0616,-38.8892)">
+				<title>enveloppe</title>
+				<g id="shape667-1186"/>
+			</g>
+			<g id="group668-1188">
+				<title>attachment</title>
+				<g id="shape669-1189">
+					<title>Лист.669</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group670-1191" transform="translate(585.699,-184.676)">
+			<title>Sequence Flow.670</title>
+			<g id="shape670-1192">
+				<g id="shadow670-1193" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 499.61 L235.17 499.77" class="st14"/>
+				</g>
+				<path d="M0 499.61 L235.17 499.77" class="st16"/>
+			</g>
+			<g id="group671-1202" transform="translate(112.415,15.1344)">
+				<title>enveloppe</title>
+				<g id="shape671-1203"/>
+			</g>
+			<g id="group672-1205">
+				<title>attachment</title>
+				<g id="shape673-1206">
+					<title>Лист.673</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group674-1208" transform="translate(924.811,-175.596)">
+			<title>Sequence Flow.674</title>
+			<g id="shape674-1209">
+				<g id="shadow674-1210" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 490.69 L7.83 490.69 A5.66929 5.66929 -180 0 0 13.5 485.02 L13.5 398.11 A5.66929 5.66929 0 0 1 19.17
+								 392.44 L20.46 392.44" class="st14"/>
+				</g>
+				<path d="M0 490.69 L7.83 490.69 A5.66929 5.66929 -180 0 0 13.5 485.02 L13.5 398.11 A5.66929 5.66929 0 0 1 19.17 392.44
+							 L20.46 392.44" class="st16"/>
+			</g>
+			<g id="group675-1219" transform="translate(5.0616,-42.9906)">
+				<title>enveloppe</title>
+				<g id="shape675-1220"/>
+			</g>
+			<g id="group676-1222">
+				<title>attachment</title>
+				<g id="shape677-1223">
+					<title>Лист.677</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group678-1225" transform="translate(435.108,-276.846)">
+			<title>Sequence Flow.678</title>
+			<g id="shape678-1226">
+				<g id="shadow678-1227" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 481.69 L510.16 481.69" class="st14"/>
+				</g>
+				<path d="M0 481.69 L510.16 481.69" class="st16"/>
+			</g>
+			<g id="group679-1236" transform="translate(249.913,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape679-1237"/>
+			</g>
+			<g id="group680-1239">
+				<title>attachment</title>
+				<g id="shape681-1240">
+					<title>Лист.681</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st22"/>
+				</g>
+			</g>
+		</g>
+		<g id="group682-1242" transform="translate(1049.22,-285.846)">
+			<title>Sequence Flow.682</title>
+			<g id="shape682-1243">
+				<g id="shadow682-1244" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M0 490.69 L7.83 490.69 A5.66929 5.66929 -180 0 0 13.5 485.02 L13.5 377.86 A5.66929 5.66929 0 0 1 19.17
+								 372.19 L19.95 372.19" class="st14"/>
+				</g>
+				<path d="M0 490.69 L7.83 490.69 A5.66929 5.66929 -180 0 0 13.5 485.02 L13.5 377.86 A5.66929 5.66929 0 0 1 19.17 372.19
+							 L19.95 372.19" class="st16"/>
+			</g>
+			<g id="group683-1253" transform="translate(5.0616,-52.8587)">
+				<title>enveloppe</title>
+				<g id="shape683-1254"/>
+			</g>
+			<g id="group684-1256">
+				<title>attachment</title>
+				<g id="shape685-1257">
+					<title>Лист.685</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="group686-1259" transform="translate(1171.58,-407.346)">
+			<title>Sequence Flow.686</title>
+			<g id="shape686-1260">
+				<g id="shadow686-1261" transform="matrix(1,0,0,1,0,0)" class="st13">
+					<path d="M1.52 481.69 L9.94 481.69" class="st14"/>
+				</g>
+				<path d="M1.52 481.69 L9.94 481.69" class="st16"/>
+			</g>
+			<g id="group687-1270" transform="translate(0.5616,-2.8656)">
+				<title>enveloppe</title>
+				<g id="shape687-1271"/>
+			</g>
+			<g id="group688-1273">
+				<title>attachment</title>
+				<g id="shape689-1274">
+					<title>Лист.689</title>
+					<path d="M0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69
+								 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0
+								 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69 C0 490.69 0 490.69 0 490.69
+								 Z" class="st8"/>
+				</g>
+			</g>
+		</g>
+		<g id="shape690-1276" transform="translate(421.608,-249.846)">
+			<title>Лист.690</title>
+			<desc>Требуется 2 уровень поддержки</desc>
+			<rect x="0" y="472.693" width="97.4055" height="18" class="st23"/>
+			<text x="4" y="478.69" class="st5">Требуется 2 уровень <tspan x="4" dy="1.2em" class="st9">поддержки</tspan></text>		</g>
+		<g id="shape691-1280" transform="translate(461.25,-283.437)">
+			<title>Лист.691</title>
+			<desc>Вопрос решен</desc>
+			<rect x="0" y="472.693" width="85.5" height="18" class="st23"/>
+			<text x="12.36" y="484.69" class="st5">Вопрос решен</text>		</g>
+		<g id="shape692-1283" transform="translate(302.593,-413.937)">
+			<title>Лист.692</title>
+			<desc>Да</desc>
+			<rect x="0" y="472.693" width="31.1811" height="18" class="st23"/>
+			<text x="9.98" y="484.69" class="st5">Да</text>		</g>
+		<g id="shape693-1286" transform="translate(271.018,-364.756)">
+			<title>Лист.693</title>
+			<desc>Нет</desc>
+			<rect x="0" y="472.693" width="31.1811" height="18" class="st23"/>
+			<text x="8.05" y="484.69" class="st5">Нет</text>		</g>
+		<g id="shape695-1289" transform="translate(591.297,-173.346)">
+			<title>Лист.695</title>
+			<desc>Да</desc>
+			<rect x="0" y="472.693" width="31.1811" height="18" class="st23"/>
+			<text x="9.98" y="484.69" class="st5">Да</text>		</g>
+		<g id="shape696-1292" transform="translate(565.927,-137.346)">
+			<title>Лист.696</title>
+			<desc>Нет</desc>
+			<rect x="0" y="472.693" width="31.1811" height="18" class="st23"/>
+			<text x="8.05" y="484.69" class="st5">Нет</text>		</g>
+	</g>
+</svg>
