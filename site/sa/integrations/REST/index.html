@@ -10,9 +10,13 @@
         <meta name="author" content="Aleksandr Petrov">
       
       
-        <link rel="canonical" href="https://ptrvaleks.github.io/SABAinterview/sa/integrations/REST/">
+        <link rel="canonical" href="https://ptrvaleks.github.io/SABAinterview/sa/integrations/rest/">
       
       
+        <link rel="prev" href="../rabbitmq-vs-kafka/">
+      
+      
+        <link rel="next" href="../soap/">
       
       
         
@@ -220,18 +224,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -252,7 +258,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -573,18 +579,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -605,7 +613,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -623,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integration-methods.md" class="md-nav__link">
+      <a href="../integration-methods/" class="md-nav__link">
         
   
   
@@ -651,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rabbitmq-vs-kafka.md" class="md-nav__link">
+      <a href="../rabbitmq-vs-kafka/" class="md-nav__link">
         
   
   
@@ -676,10 +684,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../rest.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    REST
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -695,6 +728,157 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rest-representational-state-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐 REST (Representational State Transfer)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌐 REST (Representational State Transfer)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rest" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔑 Основные принципы REST
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔑 Основные принципы REST">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.Клиент-серверная архитектура
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-statelessness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.Отсутствие состояния (statelessness)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.Кеширование
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-uniform-interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4.Единый интерфейс (uniform interface)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-uri" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5.Идентификация ресурсов через URI
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-representation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6.Представление ресурса (Representation)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7.Код по требованию (необязательный принцип)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rest-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📌 Пример REST-запроса
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rest_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅ Преимущества REST
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -707,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../soap.md" class="md-nav__link">
+      <a href="../soap/" class="md-nav__link">
         
   
   
@@ -735,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rest-vs-soap.md" class="md-nav__link">
+      <a href="../rest-vs-soap/" class="md-nav__link">
         
   
   

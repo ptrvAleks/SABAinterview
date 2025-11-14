@@ -10,9 +10,13 @@
         <meta name="author" content="Aleksandr Petrov">
       
       
-        <link rel="canonical" href="https://ptrvaleks.github.io/SABAinterview/sa/integrations/SOAP/">
+        <link rel="canonical" href="https://ptrvaleks.github.io/SABAinterview/sa/integrations/soap/">
       
       
+        <link rel="prev" href="../rest/">
+      
+      
+        <link rel="next" href="../rest-vs-soap/">
       
       
         
@@ -220,18 +224,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -252,7 +258,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -573,18 +579,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -605,7 +613,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -623,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integration-methods.md" class="md-nav__link">
+      <a href="../integration-methods/" class="md-nav__link">
         
   
   
@@ -651,7 +659,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rabbitmq-vs-kafka.md" class="md-nav__link">
+      <a href="../rabbitmq-vs-kafka/" class="md-nav__link">
         
   
   
@@ -679,7 +687,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rest.md" class="md-nav__link">
+      <a href="../rest/" class="md-nav__link">
         
   
   
@@ -704,10 +712,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../soap.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SOAP
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -723,6 +756,118 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#soap-simple-object-access-protocol" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧼 SOAP (Simple Object Access Protocol)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧼 SOAP (Simple Object Access Protocol)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#soap" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📦 Основные характеристики SOAP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soap-" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧾 Пример SOAP-сообщения (запрос)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soap-_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📐 Структура SOAP-сообщения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soap_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔑 Особенности SOAP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soap_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🛠️ Где используется SOAP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧰 Инструменты и стандарты
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📎 Заключение
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -735,7 +880,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rest-vs-soap.md" class="md-nav__link">
+      <a href="../rest-vs-soap/" class="md-nav__link">
         
   
   

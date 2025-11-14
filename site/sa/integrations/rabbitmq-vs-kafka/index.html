@@ -10,9 +10,13 @@
         <meta name="author" content="Aleksandr Petrov">
       
       
-        <link rel="canonical" href="https://ptrvaleks.github.io/SABAinterview/sa/integrations/REST%20vs%20SOAP/">
+        <link rel="canonical" href="https://ptrvaleks.github.io/SABAinterview/sa/integrations/rabbitmq-vs-kafka/">
       
       
+        <link rel="prev" href="../integration-methods/">
+      
+      
+        <link rel="next" href="../rest/">
       
       
         
@@ -23,7 +27,7 @@
     
     
       
-        <title>REST vs SOAP - Подготовка к интервью</title>
+        <title>RabbitMQ vs Kafka - Подготовка к интервью</title>
       
     
     
@@ -63,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#rabbitmq-vs-apache-kafka" class="md-skip">
+          Перейти к содержанию
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -95,7 +104,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              REST vs SOAP
+              RabbitMQ vs Kafka
             
           </span>
         </div>
@@ -215,18 +224,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -247,7 +258,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -568,18 +579,20 @@
                 
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -600,7 +613,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -618,7 +631,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integration-methods.md" class="md-nav__link">
+      <a href="../integration-methods/" class="md-nav__link">
         
   
   
@@ -643,10 +656,35 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../rabbitmq-vs-kafka.md" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RabbitMQ vs Kafka
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -662,6 +700,185 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Содержание">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rabbitmq-vs-apache-kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📬 RabbitMQ vs 🐘 Apache Kafka
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📬 RabbitMQ vs 🐘 Apache Kafka">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧾 Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📐 Архитектурные отличия
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧰 Примеры использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧰 Примеры использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RabbitMQ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kafka
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Пример архитектуры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Пример архитектуры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RabbitMQ:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kafka_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kafka:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Таблица сравнения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Вывод
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -674,7 +891,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rest.md" class="md-nav__link">
+      <a href="../rest/" class="md-nav__link">
         
   
   
@@ -702,7 +919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../soap.md" class="md-nav__link">
+      <a href="../soap/" class="md-nav__link">
         
   
   
@@ -730,7 +947,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rest-vs-soap.md" class="md-nav__link">
+      <a href="../rest-vs-soap/" class="md-nav__link">
         
   
   
@@ -1424,6 +1641,175 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Содержание
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rabbitmq-vs-apache-kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📬 RabbitMQ vs 🐘 Apache Kafka
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📬 RabbitMQ vs 🐘 Apache Kafka">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧾 Описание
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📐 Архитектурные отличия
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🧰 Примеры использования
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🧰 Примеры использования">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RabbitMQ
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kafka" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kafka
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ⚙️ Пример архитектуры
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚙️ Пример архитектуры">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RabbitMQ:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kafka_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kafka:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📊 Таблица сравнения
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        💡 Вывод
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1439,59 +1825,180 @@
 
 
 
-  <h1>REST vs SOAP</h1>
+  <h1>RabbitMQ vs Kafka</h1>
 
+<h2 id="rabbitmq-vs-apache-kafka"><strong>📬 RabbitMQ vs 🐘 Apache Kafka</strong></h2>
+<p><strong>RabbitMQ</strong> и <strong>Kafka</strong> — это два популярных брокера сообщений, но у них <strong>разные архитектуры, подходы и задачи</strong>, которые они решают.</p>
+<hr />
+<h3 id="_1"><strong>🧾 Описание</strong></h3>
 <table>
 <thead>
 <tr>
-<th></th>
-<th><strong>SOAP</strong></th>
-<th><strong>REST</strong></th>
+<th><strong>Система</strong></th>
+<th><strong>Описание</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>определение</strong></td>
-<td>Стандартизированный протокол обмена</td>
-<td>Архитектурный стиль</td>
+<td><strong>RabbitMQ</strong></td>
+<td>Брокер сообщений, реализующий модель <strong>очередей</strong> (message queue), основан на протоколе <strong>AMQP</strong>. Подходит для традиционной асинхронной коммуникации.</td>
 </tr>
 <tr>
-<td><strong>стандарт</strong></td>
-<td>Наличие обязательной спецификации описания методов веб-сервиса (WSDL)</td>
-<td>нет единого стандарта</td>
-</tr>
-<tr>
-<td><strong>протоколы</strong></td>
-<td>HTTP(s), SMTP, FTP, TCP, MQ и др.</td>
-<td>в основном HTTP(s)</td>
-</tr>
-<tr>
-<td><strong>форматы данных</strong></td>
-<td>XML</td>
-<td>XML, JSON, HTML, text</td>
-</tr>
-<tr>
-<td><strong>методы</strong></td>
-<td>POST (а внутри него вызов других методов)</td>
-<td>POST, GET, PUT, DELETE, PATCH</td>
-</tr>
-<tr>
-<td></td>
-<td>акцент на исполнении удаленных сервисов</td>
-<td>акцент на доступе к ресурсам. Каждый URL - представление ресурса</td>
-</tr>
-<tr>
-<td><strong>безопасность</strong></td>
-<td>SSL и WS-security</td>
-<td>SSL (HTTPS), OAuth, JWT и др.</td>
-</tr>
-<tr>
-<td><strong>предназначение</strong></td>
-<td>в основном для систем с большим функционалом, где есть транзакции и нужна безопасность</td>
-<td>для легковесных и гибких веб-сервисов</td>
+<td><strong>Kafka</strong></td>
+<td>Система обработки событий и <strong>журнал сообщений</strong> (distributed log), спроектирована для <strong>потоковой обработки данных</strong>, масштабируемости и долговременного хранения.</td>
 </tr>
 </tbody>
 </table>
+<hr />
+<h3 id="_2"><strong>📐 Архитектурные отличия</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Критерий</strong></th>
+<th><strong>RabbitMQ</strong></th>
+<th><strong>Kafka</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Тип системы</td>
+<td>Очередь сообщений (Queue)</td>
+<td>Журнал событий (Log)</td>
+</tr>
+<tr>
+<td>Протокол</td>
+<td>AMQP, STOMP, MQTT</td>
+<td>Собственный бинарный протокол</td>
+</tr>
+<tr>
+<td>Хранение сообщений</td>
+<td>Временное (удаляются после обработки)</td>
+<td>Постоянное (настраиваемое хранение по времени/объёму)</td>
+</tr>
+<tr>
+<td>Потребление</td>
+<td>Каждое сообщение потребляется <strong>один раз</strong></td>
+<td>Одно сообщение может быть прочитано <strong>многими</strong> подписчиками</td>
+</tr>
+<tr>
+<td>Порядок сообщений</td>
+<td>Не гарантирован</td>
+<td>Гарантирован в пределах <strong>partition</strong></td>
+</tr>
+<tr>
+<td>Поддержка отложенных сообщений</td>
+<td>Да (через плагины/очереди)</td>
+<td>Нет напрямую (нужно обрабатывать на клиенте)</td>
+</tr>
+<tr>
+<td>Подтверждение доставки</td>
+<td>Обязательно (ack/nack)</td>
+<td>Управляется смещением (offset)</td>
+</tr>
+<tr>
+<td>Расширяемость</td>
+<td>Средняя</td>
+<td>Очень высокая (кластер из брокеров и партиций)</td>
+</tr>
+<tr>
+<td>Подходящий сценарий</td>
+<td>Task queues, RPC, микросервисы</td>
+<td>Потоковая аналитика, обработка событий, логирование</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_3"><strong>🧰 Примеры использования</strong></h3>
+<h4 id="_4"><strong>✅</strong></h4>
+<h4 id="rabbitmq"><strong>RabbitMQ</strong></h4>
+<ul>
+<li>
+<p>Асинхронная передача задач между микросервисами.</p>
+</li>
+<li>
+<p>Реализация <strong>отложенных задач</strong> (например, напоминания).</p>
+</li>
+<li>
+<p>Отправка уведомлений, email.</p>
+</li>
+<li>
+<p>RPC-запросы между сервисами.</p>
+</li>
+</ul>
+<h4 id="_5"><strong>✅</strong></h4>
+<h4 id="kafka"><strong>Kafka</strong></h4>
+<ul>
+<li>
+<p>Потоковая обработка данных (stream processing).</p>
+</li>
+<li>
+<p>Хранение логов и событий.</p>
+</li>
+<li>
+<p>Реализация event sourcing.</p>
+</li>
+<li>
+<p>Интеграция с Big Data и аналитикой (например, Apache Spark, Flink).</p>
+</li>
+</ul>
+<hr />
+<h3 id="_6"><strong>⚙️ Пример архитектуры</strong></h3>
+<h4 id="rabbitmq_1"><strong>RabbitMQ:</strong></h4>
+<div class="highlight"><pre><span></span><code>Producer → Queue → Consumer
+Сообщение удаляется после обработки
+</code></pre></div>
+<h4 id="kafka_1"><strong>Kafka:</strong></h4>
+<div class="highlight"><pre><span></span><code>Producer → Topic → Consumer Group
+Сообщения хранятся, пока не истечёт TTL
+</code></pre></div>
+<hr />
+<h3 id="_7"><strong>📊 Таблица сравнения</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Характеристика</strong></th>
+<th><strong>RabbitMQ</strong></th>
+<th><strong>Kafka</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Скорость</td>
+<td>Подходит для небольших нагрузок</td>
+<td>Высокая пропускная способность</td>
+</tr>
+<tr>
+<td>Надёжность доставки</td>
+<td>Подтверждение от клиента</td>
+<td>Гибкое управление offset’ами</td>
+</tr>
+<tr>
+<td>Поддержка повторного чтения</td>
+<td>Нет (если не сконфигурировано)</td>
+<td>Да (offset управляется вручную)</td>
+</tr>
+<tr>
+<td>Подписчики</td>
+<td>Один потребитель на сообщение</td>
+<td>Множественные группы потребителей</td>
+</tr>
+<tr>
+<td>Инструменты мониторинга</td>
+<td>Хорошие (веб-интерфейс)</td>
+<td>Требует настройки (например, Prometheus + Grafana)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="_8"><strong>💡 Вывод</strong></h3>
+<ul>
+<li>
+<p>🐇 <strong>RabbitMQ</strong> — хорош для <strong>традиционной очереди задач</strong>, где важна простота и подтверждение доставки.</p>
+</li>
+<li>
+<p>🐘 <strong>Kafka</strong> — оптимален для <strong>потоковой обработки данных</strong> в <strong>масштабируемых</strong> распределённых системах.</p>
+</li>
+</ul>
 
 
 
