@@ -68,13 +68,15 @@ markdown_extensions:
     - pymdownx.superfences
 
 extra:
+    consent:
+      title: Cookie consent
+      description: Мы используем файлы cookie, чтобы распознавать ваши повторные посещения и предпочтения, а также оценивать эффективность нашей документации и то, находят ли пользователи то, что ищут. С вашего согласия вы помогаете нам сделать документацию лучше.
     analytics:
       provider: google
       property: G-CYRYFTSVH4
     feedback:
-      type: 'rating'
       title: Эта страница была полезна?
-      options:
+      ratings:
         - name: 'Да'
           icon: 'emoticon-happy-outline'
           value: 1
