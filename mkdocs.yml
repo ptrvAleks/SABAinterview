@@ -63,7 +63,6 @@ repo_url: https://github.com/petrvAlex/SABAinterview
 markdown_extensions:
     - toc:
         permalink: true
-
     - admonition
     - pymdownx.details
     - pymdownx.superfences
@@ -73,15 +72,16 @@ extra:
       provider: google
       property: G-CYRYFTSVH4
     feedback:
+      type: 'rating'
       title: Эта страница была полезна?
-      ratings:
-        - icon: material/emoticon-happy-outline
-          name: Эта страница была полезна
-          data: 1
+      options:
+        - name: 'Да'
+          icon: 'emoticon-happy-outline'
+          value: 1
           note: >-
             Thanks for your feedback!
-        - icon: material/emoticon-sad-outline
-          name: Эту страницу можно улучшить
-          data: 0
+        - name: 'Нет'
+          icon: 'emoticon-sad-outline'
+          value: 0
           note: >-
             Спасибо за отзыв! Помогите улучшить эту страницу используя <a href="https://github.com/petrvAlex/SABAinterview/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
