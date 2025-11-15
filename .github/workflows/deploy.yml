@@ -6,31 +6,28 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      - name: Install MkDocs
+      - name: Install dependencies
         run: |
-          pip install mkdocs mkdocs-material
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocs-material mkdocs-rss-plugin
 
-      - name: Set up GitHub Token for deployment
+      - name: Configure git (for deploy)
         run: |
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global user.name "github-actions[bot]"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
       - name: Build MkDocs site
         run: mkdocs build
-
-      - name: Generate TXT Sitemap
-        run: |
-          python generate_sitemap_txt.py  # убедитесь, что скрипт generate_sitemap_txt.py находится в корне репозитория
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -1,6 +1,6 @@
 site_name: "Подготовка к интервью"
 site_url: "http://saba-interview.ru/"
-
+site_description: "Помощь СА/БА аналитикам в подготовке к собеседованиям"
 
 nav:
   - "Главная": index.md
@@ -45,10 +45,41 @@ theme:
   name: material
   language: ru
 
-site_author: "Aleksandr Petrov"
-copyright: "Aleksandr Petrov, ptrvAleks, 2025"
+plugins:
+  - search
+  - rss:
+      # адрес выходного RSS (будет создан в site/)
+      feed_url: /feed.xml
+      # сколько последних записей включать
+      limit: 20
+      # простая маска: включить все страницы (регекс)
+      match_path: ".*"
 
+site_author: "Alexander Petrov"
+copyright: "Alexander Petrov, petrvAlex, 2025"
+repo_url: https://github.com/petrvAlex/SABAinterview
 markdown_extensions:
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+    - toc:
+        permalink: true
+
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+
+extra:
+    analytics:
+    provider: google
+    property: G-CYRYFTSVH4
+    feedback:
+      title: Эта страница была полезна?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: Эта страница была полезна
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: Эту страницу можно улучшить
+          data: 0
+          note: >-
+            Спасибо за отзыв! Помогите улучшить эту страницу используя <a href="https://github.com/petrvAlex/SABAinterview/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
