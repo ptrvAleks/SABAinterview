@@ -76,12 +76,12 @@ extra:
         title: Эта страница была полезна?
         ratings:
           - name: 'Да'
-            icon: 'emoticon-happy-outline'
+            icon: material/thumb-up-outline
             value: 1
             note: >-
               Thanks for your feedback!
           - name: 'Нет'
-            icon: 'emoticon-sad-outline'
+            icon: material/thumb-down-outline
             value: 0
             note: >-
               Спасибо за отзыв! Помогите улучшить эту страницу используя <a href="https://github.com/petrvAlex/SABAinterview/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
