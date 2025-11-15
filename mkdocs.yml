@@ -74,13 +74,13 @@ extra:
       feedback:
         title: Эта страница была полезна?
         ratings:
-          - name: 'Да'
-            icon: material/thumb-up-outline
-            value: 1
+          - icon: material/thumb-up-outline
+            name: 'Да'
+            data: 1
             note: >-
-              Thanks for your feedback!
-          - name: 'Нет'
-            icon: material/thumb-down-outline
-            value: 0
+              Спасибо за отзыв!
+          - icon: material/thumb-down-outline
+            name: 'Нет' 
+            data: 0
             note: >-
               Спасибо за отзыв! Помогите улучшить эту страницу используя <a href="https://github.com/petrvAlex/SABAinterview/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a>.
