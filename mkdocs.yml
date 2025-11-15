@@ -43,6 +43,8 @@ nav:
 
 theme:
   name: material
+  features:
+    - content.action.feedback
   language: ru
 
 plugins:
@@ -68,8 +70,8 @@ markdown_extensions:
 
 extra:
     analytics:
-    provider: google
-    property: G-CYRYFTSVH4
+      provider: google
+      property: G-CYRYFTSVH4
     feedback:
       title: Эта страница была полезна?
       ratings:
