@@ -1,5 +1,5 @@
 site_name: "Подготовка к интервью"
-site_url: "https://ptrvaleks.github.io/SABAinterview/"
+site_url: "saba-interview.ru/"
 
 nav:
   - "Главная": index.md
