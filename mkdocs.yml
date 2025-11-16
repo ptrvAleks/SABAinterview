@@ -45,9 +45,11 @@ nav:
 
 theme:
   name: material
+  palette:
+    primary: blue
   language: ru
-  favicon: assets/images/favicon.png
-  logo: assets/images/logo.png
+  favicon: assets/images/favicon-new.png
+  logo: assets/images/logo-new.png
   features: 
     - navigation.tabs
     - navigation.tabs.sticky
@@ -59,7 +61,14 @@ theme:
     - toc.follow
     - search.highlight
     - search.share
-    
+  
+markdown_extensions:
+    - toc:
+        permalink: true
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - attr_list 
 
 plugins:
   - search
@@ -68,16 +77,12 @@ plugins:
       match_path: ".*"
       use_git: true
 
+
+
 site_author: "Alexander Petrov"
 copyright: "Alexander Petrov, petrvAlex, 2025"
 repo_url: https://github.com/petrvAlex/SABAinterview
-markdown_extensions:
-    - toc:
-        permalink: true
-    - admonition
-    - pymdownx.details
-    - pymdownx.superfences
-    - attr_list 
+
 
 extra:
     consent:
