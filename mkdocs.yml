@@ -53,6 +53,7 @@ plugins:
       limit: 20
       # простая маска: включить все страницы (регекс)
       match_path: ".*"
+      use_git: true
 
 site_author: "Alexander Petrov"
 copyright: "Alexander Petrov, petrvAlex, 2025"
@@ -63,6 +64,7 @@ markdown_extensions:
     - admonition
     - pymdownx.details
     - pymdownx.superfences
+    - attr_list    
 
 extra:
     consent:
