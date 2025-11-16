@@ -12,25 +12,31 @@
         <meta name="author" content="Alexander Petrov">
       
       
+        <link rel="canonical" href="https://saba-interview.ru/sa/">
       
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="db/keys/">
       
       
         
       
       
-        <link rel="alternate" type="application/rss+xml" title="RSS канал" href="../../../feed_rss_created.xml">
-        <link rel="alternate" type="application/rss+xml" title="RSS канал с новым контентом" href="../../../feed_rss_updated.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS канал" href="../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS канал с новым контентом" href="../feed_rss_updated.xml">
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
       
-        <title>SOAP - Подготовка к интервью</title>
+        <title>Системный анализ - Подготовка к интервью</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
       
       
 
@@ -49,7 +55,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -77,7 +83,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#soap-simple-object-access-protocol" class="md-skip">
+        <a href="#_1" class="md-skip">
           Перейти к содержанию
         </a>
       
@@ -91,9 +97,9 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
-    <a href="../../.." title="Подготовка к интервью" class="md-header__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
+    <a href=".." title="Подготовка к интервью" class="md-header__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -113,7 +119,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              SOAP
+              Системный анализ
             
           </span>
         </div>
@@ -143,6 +149,11 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
       </label>
       <nav class="md-search__options" aria-label="Поиск">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Поделиться" aria-label="Поделиться" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
         
         <button type="reset" class="md-search__icon md-icon" title="Очистить" aria-label="Очистить" tabindex="-1">
           
@@ -180,13 +191,87 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Вкладки" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Главная
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  
+    
+  
+  СА
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../ba/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  БА
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -200,10 +285,12 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Навигация" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Навигация" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="Подготовка к интервью" class="md-nav__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
+    <a href=".." title="Подготовка к интервью" class="md-nav__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -233,7 +320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   
@@ -257,22 +344,57 @@
       
   
   
+    
   
   
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
     
     
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
   
   
   <span class="md-ellipsis">
@@ -286,10 +408,16 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             
@@ -301,6 +429,8 @@
           <ul class="md-nav__list" data-md-scrollfix>
             
               
+            
+              
                 
   
   
@@ -308,17 +438,30 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
         
           
-          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
             
   
   
@@ -336,8 +479,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_1">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -354,7 +497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../db/keys/" class="md-nav__link">
+      <a href="db/keys/" class="md-nav__link">
         
   
   
@@ -382,7 +525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../db/normalization/" class="md-nav__link">
+      <a href="db/normalization/" class="md-nav__link">
         
   
   
@@ -410,7 +553,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../db/indexes/" class="md-nav__link">
+      <a href="db/indexes/" class="md-nav__link">
         
   
   
@@ -439,17 +582,30 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" >
         
           
-          <label class="md-nav__link" for="__nav_2_1_4" id="__nav_2_1_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_2_4" id="__nav_2_2_4_label" tabindex="0">
             
   
   
@@ -467,8 +623,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_1_4">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -485,7 +641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../db/sql/basics/" class="md-nav__link">
+      <a href="db/sql/basics/" class="md-nav__link">
         
   
   
@@ -513,7 +669,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../db/sql/joins/" class="md-nav__link">
+      <a href="db/sql/joins/" class="md-nav__link">
         
   
   
@@ -541,7 +697,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../db/sql/aggregations/" class="md-nav__link">
+      <a href="db/sql/aggregations/" class="md-nav__link">
         
   
   
@@ -569,7 +725,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../db/sql/interview-questions/" class="md-nav__link">
+      <a href="db/sql/interview-questions/" class="md-nav__link">
         
   
   
@@ -614,17 +770,32 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
         
           
-          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
             
   
   
@@ -642,8 +813,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -660,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../integration-methods/" class="md-nav__link">
+      <a href="integrations/integration-methods/" class="md-nav__link">
         
   
   
@@ -688,7 +859,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rabbitmq-vs-kafka/" class="md-nav__link">
+      <a href="integrations/rabbitmq-vs-kafka/" class="md-nav__link">
         
   
   
@@ -716,7 +887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rest.md" class="md-nav__link">
+      <a href="integrations/rest/" class="md-nav__link">
         
   
   
@@ -744,7 +915,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../soap.md" class="md-nav__link">
+      <a href="integrations/soap/" class="md-nav__link">
         
   
   
@@ -772,7 +943,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rest-vs-soap/" class="md-nav__link">
+      <a href="integrations/rest-vs-soap/" class="md-nav__link">
         
   
   
@@ -809,17 +980,28 @@
   
     
     
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
         
           
-          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
             
   
   
@@ -837,8 +1019,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -855,7 +1037,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../data-formats/json-vs-xml/" class="md-nav__link">
+      <a href="data-formats/json-vs-xml/" class="md-nav__link">
         
   
   
@@ -883,7 +1065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../data-formats/json-schema/" class="md-nav__link">
+      <a href="data-formats/json-schema/" class="md-nav__link">
         
   
   
@@ -911,7 +1093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../data-formats/xsd/" class="md-nav__link">
+      <a href="data-formats/xsd/" class="md-nav__link">
         
   
   
@@ -948,17 +1130,26 @@
   
     
     
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
         
           
-          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
             
   
   
@@ -976,8 +1167,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2_4">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -994,7 +1185,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../interaction/orchestration-vs-choreography/" class="md-nav__link">
+      <a href="interaction/orchestration-vs-choreography/" class="md-nav__link">
         
   
   
@@ -1022,7 +1213,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../interaction/sync-vs-async/" class="md-nav__link">
+      <a href="interaction/sync-vs-async/" class="md-nav__link">
         
   
   
@@ -1058,7 +1249,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../authentication-and-authorization/" class="md-nav__link">
+      <a href="authentication-and-authorization/" class="md-nav__link">
         
   
   
@@ -1086,7 +1277,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../identification/" class="md-nav__link">
+      <a href="identification/" class="md-nav__link">
         
   
   
@@ -1114,7 +1305,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../architecture-types/" class="md-nav__link">
+      <a href="architecture-types/" class="md-nav__link">
         
   
   
@@ -1142,7 +1333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../idempotence/" class="md-nav__link">
+      <a href="idempotence/" class="md-nav__link">
         
   
   
@@ -1170,7 +1361,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../monolith-vs-microservices/" class="md-nav__link">
+      <a href="monolith-vs-microservices/" class="md-nav__link">
         
   
   
@@ -1198,7 +1389,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../http/" class="md-nav__link">
+      <a href="http/" class="md-nav__link">
         
   
   
@@ -1234,7 +1425,28 @@
   
     
     
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
+    
+    
+      
+      
     
     
     <li class="md-nav__item md-nav__item--nested">
@@ -1244,8 +1456,9 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
+          <div class="md-nav__link md-nav__container">
+            <a href="../ba/" class="md-nav__link ">
+              
   
   
   <span class="md-ellipsis">
@@ -1259,8 +1472,14 @@
   
   
 
-            <span class="md-nav__icon md-icon"></span>
-          </label>
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
         
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
@@ -1274,13 +1493,15 @@
           <ul class="md-nav__list" data-md-scrollfix>
             
               
+            
+              
                 
   
   
   
   
     <li class="md-nav__item">
-      <a href="../../../ba/requirement-types/" class="md-nav__link">
+      <a href="../ba/requirement-types/" class="md-nav__link">
         
   
   
@@ -1308,7 +1529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ba/use-case-and-user-story/" class="md-nav__link">
+      <a href="../ba/use-case-and-user-story/" class="md-nav__link">
         
   
   
@@ -1336,7 +1557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ba/methodologies/" class="md-nav__link">
+      <a href="../ba/methodologies/" class="md-nav__link">
         
   
   
@@ -1364,7 +1585,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ba/uml/" class="md-nav__link">
+      <a href="../ba/uml/" class="md-nav__link">
         
   
   
@@ -1392,7 +1613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ba/bpmn/" class="md-nav__link">
+      <a href="../ba/bpmn/" class="md-nav__link">
         
   
   
@@ -1420,7 +1641,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../ba/team/" class="md-nav__link">
+      <a href="../ba/team/" class="md-nav__link">
         
   
   
@@ -1465,6 +1686,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1473,96 +1696,57 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#soap-simple-object-access-protocol" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🧼 SOAP (Simple Object Access Protocol)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🧼 SOAP (Simple Object Access Protocol)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#soap" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📦 Основные характеристики SOAP
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#soap-" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🧾 Пример SOAP-сообщения (запрос)
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#soap-_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📐 Структура SOAP-сообщения
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#soap_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔑 Особенности SOAP
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#soap_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🛠️ Где используется SOAP
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🧰 Инструменты и стандарты
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📎 Заключение
+        Современный системный анализ:
       
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Предмет системного анализа:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Отличительные черты системного анализа:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Системный анализ тесно связан с дисциплинами и научными направлениями:
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Источник:
+      
+    </span>
+  </a>
   
 </li>
       
@@ -1577,6 +1761,54 @@
           
             <div class="md-content" data-md-component="content">
               
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Навигация" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Главная
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    СА
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
@@ -1586,140 +1818,57 @@
   
 
 
-  <h1>SOAP</h1>
-
-<h2 id="soap-simple-object-access-protocol"><strong>🧼 SOAP (Simple Object Access Protocol)</strong><a class="headerlink" href="#soap-simple-object-access-protocol" title="Permanent link">&para;</a></h2>
-<p><strong>SOAP</strong> — это протокол обмена сообщениями, используемый для взаимодействия между системами по сети.</p>
-<p>Он основан на <strong>XML</strong> и чаще всего используется в <strong>веб-сервисах корпоративного уровня</strong>, где важны надёжность, безопасность и стандартизация.</p>
-<hr />
-<h3 id="soap"><strong>📦 Основные характеристики SOAP</strong><a class="headerlink" href="#soap" title="Permanent link">&para;</a></h3>
+<h1 id="_1">Системный анализ<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p><strong>Системный анализ</strong> — научный метод, который отличается междисциплинарным подходом к решению сложных проблем. </p>
+<p>Объектом системного анализа выступают практические проблемы, которые связанны с созданием новых и модернизацией существующих систем. Это организационные, экономические, технические, информационные, военные и другие системы.</p>
+<p>Системный анализ используют для выяснения причин существующих сложностей, постановки целей, выработки методов и вариантов устранения проблем. Он выступает в роли организатора и координатора. Опирается на междисциплинарный подход, с помощью которого эффективно объединяет и концентрирует усилия группы специалистов на решении конкретной проблемы. Системное объединение достижений различных областей знаний, позволяет решать такие проблемы, которые не могут быть разрешены в рамках отдельных дисциплин и частных подходов.</p>
+<p>Системный анализ создавался как метод поддержки принятия стратегических решений. Он позволял обоснованно выбирать наилучшие стратегии в сложных ситуациях. </p>
+<p>Сегодня системный анализ из метода, рекомендующего руководителю выбор оптимальной линии поведения, развился в прикладной научный подход, который реализует системный подход к исследованиям.</p>
+<h2 id="_2">Современный системный анализ:<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>Основан на <strong>XML</strong> — все сообщения формируются в виде XML-документов.</p>
-</li>
-<li>
-<p>Использует протоколы передачи, такие как <strong>HTTP</strong>, <strong>SMTP</strong>, <strong>JMS</strong> и др.</p>
-</li>
-<li>
-<p>Является <strong>протоколом</strong>, а не просто форматом (в отличие от JSON).</p>
-</li>
-<li>
-<p>Строго определённая структура сообщений.</p>
-</li>
-<li>
-<p>Хорошо подходит для сложных сценариев: <strong>транзакции</strong>, <strong>безопасность</strong>, <strong>логирование</strong>, <strong>согласованность</strong>.</p>
-</li>
+<li>устанавливает причинно-следственные связи, которые повлияли на возникновение проблемы;</li>
+<li>анализирует варианты разрешения системных проблем с учетом ограничений, рисков, неопределенных условий среды;</li>
+<li>организует междисциплинарные научные и прикладные исследования;</li>
+<li>дает обоснованные рекомендации по оптимальному выбору или рациональной линии поведения в сложных управленческих ситуациях;</li>
+<li>использует методы моделирования для изучения проблем;</li>
 </ul>
-<hr />
-<h3 id="soap-"><strong>🧾 Пример SOAP-сообщения (запрос)</strong><a class="headerlink" href="#soap-" title="Permanent link">&para;</a></h3>
-<div class="highlight"><pre><span></span><code>&lt;soap:Envelope xmlns:soap=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;&gt;
-  &lt;soap:Header&gt;
-    &lt;!-- Метаданные, например, токен авторизации --&gt;
-  &lt;/soap:Header&gt;
-  &lt;soap:Body&gt;
-    &lt;getUser xmlns=&quot;http://example.com/users&quot;&gt;
-      &lt;id&gt;123&lt;/id&gt;
-    &lt;/getUser&gt;
-  &lt;/soap:Body&gt;
-&lt;/soap:Envelope&gt;
-</code></pre></div>
-<hr />
-<h3 id="soap-_1"><strong>📐 Структура SOAP-сообщения</strong><a class="headerlink" href="#soap-_1" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th><strong>Элемент</strong></th>
-<th><strong>Назначение</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Envelope</td>
-<td>Корневой элемент, обязательный</td>
-</tr>
-<tr>
-<td>Header</td>
-<td>Дополнительные метаданные (например, безопасность, трассировка), необязателен</td>
-</tr>
-<tr>
-<td>Body</td>
-<td>Основное содержимое запроса или ответа</td>
-</tr>
-<tr>
-<td>Fault</td>
-<td>Используется для передачи ошибок</td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="soap_1"><strong>🔑 Особенности SOAP</strong><a class="headerlink" href="#soap_1" title="Permanent link">&para;</a></h3>
+<h2 id="_3">Предмет системного анализа:<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>✅ Строгая спецификация и формализация.</p>
-</li>
-<li>
-<p>✅ Поддерживает <strong>WSDL</strong> (Web Services Description Language) — файл описания сервиса.</p>
-</li>
-<li>
-<p>✅ Может использовать <strong>XSD-схемы</strong> для валидации сообщений.</p>
-</li>
-<li>
-<p>✅ Поддержка <strong>расширений</strong>: WS-Security, WS-ReliableMessaging и др.</p>
-</li>
-<li>
-<p>❌ Требует больше ресурсов (по сравнению с REST/JSON).</p>
-</li>
-<li>
-<p>❌ Менее читаем и сложен в отладке.</p>
-</li>
+<li>методы диагностики и решения сложных проблем с использованием системного подхода;</li>
+<li>способы организации междисциплинарных исследований, которые направлены на решение проблем;</li>
+<li>методы и модели комплексного исследования и проектирования сложных систем.</li>
 </ul>
-<hr />
-<h3 id="soap_2"><strong>🛠️ Где используется SOAP</strong><a class="headerlink" href="#soap_2" title="Permanent link">&para;</a></h3>
+<h2 id="_4">Отличительные черты системного анализа:<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>Финансовые учреждения и банки.</p>
-</li>
-<li>
-<p>Госуслуги и межведомственное взаимодействие.</p>
-</li>
-<li>
-<p>B2B-сервисы, где важны:</p>
+<li>использует понятия теории систем для описания объектов исследования;</li>
+<li>исследует процессы постановки целей;</li>
+<li>разрабатывает инструменты работы с целевыми показателями;</li>
+<li>применяется для решения конкретных проблем;</li>
+<li>учитывает специфику проблемных ситуаций;</li>
+<li>используется тогда, когда проблема сразу не решается с помощью формальных методов;</li>
+<li>уделяет внимание описанию проблем и постановке задач;</li>
+<li>комбинирует методы количественного и качественного анализа;</li>
+<li>использует знания экспертов в разных областях знаний;</li>
+<li>организует коллективное принятие решений;</li>
+<li>использует методики, которые определяют последовательность и содержание этапов анализа;</li>
+<li>использует системные способы декомпозиции больших проблем на отдельные задачи;</li>
+</ul>
+<h2 id="_5">Системный анализ тесно связан с дисциплинами и научными направлениями:<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p>безопасность,</p>
-</li>
-<li>
-<p>транзакционность,</p>
-</li>
-<li>
-<p>строгая схема данных,</p>
-</li>
-<li>
-<p>стабильность интерфейса.</p>
-</li>
+<li>общая теория систем и системный подход;</li>
+<li>исследование операций и оптимизация;</li>
+<li>теория принятия решений;</li>
+<li>теория управления и менеджмент;</li>
+<li>системотехника и системная инженерия;</li>
+<li>математическое моделирование;</li>
+<li>анализ данных и статистика,</li>
+<li>информатика и искусственный интеллект;</li>
+<li>философия и методология науки.</li>
 </ul>
-</li>
-</ul>
-<hr />
-<h3 id="_1"><strong>🧰 Инструменты и стандарты</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<h2 id="_6">Источник:<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h2>
 <ul>
-<li>
-<p><strong>WSDL</strong> — описание интерфейса сервиса (методы, типы данных).</p>
-</li>
-<li>
-<p><strong>XSD</strong> — валидация XML-сообщений.</p>
-</li>
-<li>
-<p><strong>SOAP UI</strong> — популярный инструмент для тестирования SOAP-сервисов.</p>
-</li>
-<li>
-<p><em>WS- стандарты</em>* — расширения для безопасности, маршрутизации, надежности.</p>
-</li>
+<li><a href="https://systems-analysis.ru/systems_analysis.html">Системный анализ</a></li>
 </ul>
-<hr />
-<h3 id="_2"><strong>📎 Заключение</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
-<p>SOAP — это промышленный стандарт для надёжных и безопасных интеграций между системами.</p>
-<p>Он сложнее и тяжелее, чем REST, но подходит для задач, где нужны строгие требования к сообщениям, безопасности и валидации.</p>
 
 
 
@@ -1775,7 +1924,7 @@
                 
                 
               
-              Спасибо за отзыв! Помогите улучшить эту страницу используя <a href="https://github.com/petrvAlex/SABAinterview/issues/new/?title=[Feedback]+SOAP+-+/sa/integrations/SOAP/" target="_blank" rel="noopener">форму обратной связи</a>.
+              Спасибо за отзыв! Помогите улучшить эту страницу используя <a href="https://github.com/petrvAlex/SABAinterview/issues/new/?title=[Feedback]+%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7+-+/sa/" target="_blank" rel="noopener">форму обратной связи</a>.
             </div>
           
         </div>
@@ -1791,6 +1940,12 @@
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  К началу
+</button>
         
       </main>
       
@@ -1900,10 +2055,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.instant", "navigation.tracking", "navigation.path", "navigation.indexes", "navigation.top", "toc.follow", "search.highlight", "search.share"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e \u0432 \u0431\u0443\u0444\u0435\u0440", "clipboard.copy": "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432 \u0431\u0443\u0444\u0435\u0440", "search.result.more.one": "\u0415\u0449\u0451 1 \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.more.other": "\u0415\u0449\u0451 # \u043d\u0430 \u044d\u0442\u043e\u0439 \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0435", "search.result.none": "\u0421\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e", "search.result.one": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e 1 \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0435", "search.result.other": "\u041d\u0430\u0439\u0434\u0435\u043d\u043e \u0441\u043e\u0432\u043f\u0430\u0434\u0435\u043d\u0438\u0439: #", "search.result.placeholder": "\u041d\u0430\u0447\u043d\u0438\u0442\u0435 \u043f\u0435\u0447\u0430\u0442\u0430\u0442\u044c \u0434\u043b\u044f \u043f\u043e\u0438\u0441\u043a\u0430", "search.result.term.missing": "\u041e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442", "select.version": "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0432\u0435\u0440\u0441\u0438\u044e"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
       
     
   </body>
