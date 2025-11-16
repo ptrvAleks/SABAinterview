@@ -47,6 +47,8 @@ theme:
   name: material
   language: ru
   favicon: assets/images/favicon.png
+  logo:
+    icon: assets/images/favicon.png
   features: 
     - navigation.tabs
     - navigation.tabs.sticky
