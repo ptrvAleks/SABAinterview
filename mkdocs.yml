@@ -1,9 +1,11 @@
 site_name: "Подготовка к интервью"
 site_description: "Помощь СА/БА аналитикам в подготовке к собеседованиям"
+site_url: https://saba-interview.ru/
 
 nav:
   - "Главная": index.md
   - "СА":
+      - sa/index.md
       - "БД":
           - "Ключи": sa/db/keys.md
           - "Нормализация": sa/db/normalization.md
@@ -33,6 +35,7 @@ nav:
       - "Монолит vs микросервис": sa/monolith-vs-microservices.md
       - "HTTP": sa/http.md
   - "БА":
+      - ba/index.md
       - "Виды требований": ba/requirement-types.md
       - "Use case и User story": ba/use-case-and-user-story.md
       - "Методологии": ba/methodologies.md
@@ -43,14 +46,22 @@ nav:
 theme:
   name: material
   language: ru
+  features: 
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.tracking
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.highlight
+    - search.share
+    
 
 plugins:
   - search
   - rss:
-      # адрес выходного RSS (будет создан в site/)
-      feed_url: /feed.xml
-      # сколько последних записей включать
-      limit: 20
       # простая маска: включить все страницы (регекс)
       match_path: ".*"
       use_git: true
@@ -64,7 +75,7 @@ markdown_extensions:
     - admonition
     - pymdownx.details
     - pymdownx.superfences
-    - attr_list    
+    - attr_list 
 
 extra:
     consent:
