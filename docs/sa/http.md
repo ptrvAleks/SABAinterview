@@ -62,7 +62,7 @@ Accept: text/html
 }
 ```
 
-## **Пример полного HTTP-запроса (POST)**
+## Пример полного HTTP-запроса (POST)
 
 ```
 POST /login HTTP/1.1
@@ -76,8 +76,9 @@ Content-Length: 47
 }
 ```
 
-## **Ресурсы для изучения**
+## Полезные ресурсы
+
+Дополнительные материалы:
 
 - [MDN Web Docs — HTTP](https://developer.mozilla.org/ru/docs/Web/HTTP)
-    
 - [RFC 9110 (HTTP/1.1)](https://httpwg.org/specs/rfc9110.html)
