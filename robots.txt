@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /assets/
+Disallow: /docs/
+Disallow: /private/
+Disallow: /venv/
+Disallow: /*.py$
+Disallow: /*.md$
+Disallow: /*.yml$
+
+Sitemap: https://saba-interview.ru/sitemap.xml
