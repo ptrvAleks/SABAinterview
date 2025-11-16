@@ -27,7 +27,7 @@
         <link rel="alternate" type="application/rss+xml" title="RSS канал" href="../../../feed_rss_created.xml">
         <link rel="alternate" type="application/rss+xml" title="RSS канал с новым контентом" href="../../../feed_rss_updated.xml">
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon-new.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
@@ -37,6 +37,9 @@
     
     
       <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -74,7 +77,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,7 +109,7 @@
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
     <a href="../../.." title="Подготовка к интервью" class="md-header__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
-  <img src="../../../assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo-new.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,8 +133,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -291,7 +299,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Подготовка к интервью" class="md-nav__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
-  <img src="../../../assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo-new.png" alt="logo">
 
     </a>
     Подготовка к интервью
@@ -837,6 +845,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -879,6 +889,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -887,111 +899,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔗 Способы интеграции систем
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔗 Способы интеграции систем">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#1-shared-database" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 🗄️ Общая база данных (Shared Database)
+        1. Общая база данных (Shared Database)
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#2-api-" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. 📡 Синхронное API-взаимодействие
+        2. Синхронное API-взаимодействие
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 📡 Синхронное API-взаимодействие">
+    <nav class="md-nav" aria-label="2. Синхронное API-взаимодействие">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-rest-grpc-graphql" class="md-nav__link">
+  <a href="#rest-grpc-graphql" class="md-nav__link">
     <span class="md-ellipsis">
       
-        a. REST / gRPC / GraphQL
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. 📨 Асинхронное взаимодействие (через очередь сообщений)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="3. 📨 Асинхронное взаимодействие (через очередь сообщений)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-message-broker-rabbitmq-kafka-nats" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        a. Message Broker (RabbitMQ, Kafka, NATS и др.)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. 🧾 Обмен файлами
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-sdk" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. 🧠 Общие библиотеки и SDK
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📊 Сравнение
+        REST / gRPC / GraphQL
       
     </span>
   </a>
@@ -1004,10 +938,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📌 Вывод
+        3. Асинхронное взаимодействие (через очередь сообщений)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Асинхронное взаимодействие (через очередь сообщений)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq-kafka-nats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Брокер сообщений (RabbitMQ, Kafka, NATS и др.)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Обмен файлами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Общие библиотеки и SDK
       
     </span>
   </a>
@@ -1857,6 +1830,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1865,111 +1840,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        🔗 Способы интеграции систем
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="🔗 Способы интеграции систем">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#1-shared-database" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. 🗄️ Общая база данных (Shared Database)
+        1. Общая база данных (Shared Database)
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#2-api-" class="md-nav__link">
     <span class="md-ellipsis">
       
-        2. 📡 Синхронное API-взаимодействие
+        2. Синхронное API-взаимодействие
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="2. 📡 Синхронное API-взаимодействие">
+    <nav class="md-nav" aria-label="2. Синхронное API-взаимодействие">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#a-rest-grpc-graphql" class="md-nav__link">
+  <a href="#rest-grpc-graphql" class="md-nav__link">
     <span class="md-ellipsis">
       
-        a. REST / gRPC / GraphQL
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. 📨 Асинхронное взаимодействие (через очередь сообщений)
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="3. 📨 Асинхронное взаимодействие (через очередь сообщений)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#a-message-broker-rabbitmq-kafka-nats" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        a. Message Broker (RabbitMQ, Kafka, NATS и др.)
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        4. 🧾 Обмен файлами
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#5-sdk" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        5. 🧠 Общие библиотеки и SDK
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📊 Сравнение
+        REST / gRPC / GraphQL
       
     </span>
   </a>
@@ -1982,10 +1879,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
+  <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📌 Вывод
+        3. Асинхронное взаимодействие (через очередь сообщений)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Асинхронное взаимодействие (через очередь сообщений)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rabbitmq-kafka-nats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Брокер сообщений (RabbitMQ, Kafka, NATS и др.)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Обмен файлами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Общие библиотеки и SDK
       
     </span>
   </a>
@@ -2078,12 +2014,10 @@
   
 
 
-  <h1>Способы интеграций</h1>
-
-<h2 id="_1"><strong>🔗 Способы интеграции систем</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<h1 id="_1">Способы интеграции систем<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p>Интеграция — это организация взаимодействия между модулями или сервисами для обмена данными и координации действий. Ниже перечислены основные подходы.</p>
 <hr />
-<h3 id="1-shared-database"><strong>1. 🗄️ Общая база данных (Shared Database)</strong><a class="headerlink" href="#1-shared-database" title="Permanent link">&para;</a></h3>
+<h2 id="1-shared-database">1. Общая база данных (Shared Database)<a class="headerlink" href="#1-shared-database" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
 <p><strong>Описание:</strong> несколько систем используют одну и ту же БД.</p>
@@ -2117,12 +2051,10 @@
 </ul>
 </li>
 </ul>
-<blockquote>
-<p>⚠ Подходит только для монолитов или tightly-coupled систем.</p>
-</blockquote>
+<p>Подходит только для монолитов или тесно-связанных систем.</p>
 <hr />
-<h3 id="2-api-"><strong>2. 📡 Синхронное API-взаимодействие</strong><a class="headerlink" href="#2-api-" title="Permanent link">&para;</a></h3>
-<h4 id="a-rest-grpc-graphql"><strong>a. REST / gRPC / GraphQL</strong><a class="headerlink" href="#a-rest-grpc-graphql" title="Permanent link">&para;</a></h4>
+<h2 id="2-api-">2. Синхронное API-взаимодействие<a class="headerlink" href="#2-api-" title="Permanent link">&para;</a></h2>
+<h3 id="rest-grpc-graphql">REST / gRPC / GraphQL<a class="headerlink" href="#rest-grpc-graphql" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
 <p><strong>Описание:</strong> один сервис вызывает API другого в реальном времени.</p>
@@ -2150,12 +2082,10 @@
 </ul>
 </li>
 </ul>
-<blockquote>
-<p>✔ Хорошо подходит для запросов “запрос–ответ”.</p>
-</blockquote>
+<p>Хорошо подходит для запросов “запрос–ответ”.</p>
 <hr />
-<h3 id="3"><strong>3. 📨 Асинхронное взаимодействие (через очередь сообщений)</strong><a class="headerlink" href="#3" title="Permanent link">&para;</a></h3>
-<h4 id="a-message-broker-rabbitmq-kafka-nats"><strong>a. Message Broker (RabbitMQ, Kafka, NATS и др.)</strong><a class="headerlink" href="#a-message-broker-rabbitmq-kafka-nats" title="Permanent link">&para;</a></h4>
+<h2 id="3">3. Асинхронное взаимодействие (через очередь сообщений)<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<h3 id="rabbitmq-kafka-nats">Брокер сообщений (RabbitMQ, Kafka, NATS и др.)<a class="headerlink" href="#rabbitmq-kafka-nats" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
 <p><strong>Описание:</strong> системы публикуют и получают события через брокер.</p>
@@ -2186,11 +2116,9 @@
 </ul>
 </li>
 </ul>
-<blockquote>
-<p>✔ Подходит для событий и фоновых операций.</p>
-</blockquote>
+<p>Подходит для событий и фоновых операций.</p>
 <hr />
-<h3 id="4"><strong>4. 🧾 Обмен файлами</strong><a class="headerlink" href="#4" title="Permanent link">&para;</a></h3>
+<h2 id="4">4. Обмен файлами<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
 <p><strong>Описание:</strong> системы обмениваются CSV, XML, JSON-файлами (через SFTP, email, облако и т.п.).</p>
@@ -2221,11 +2149,9 @@
 </ul>
 </li>
 </ul>
-<blockquote>
 <p>Используется в интеграции с внешними контрагентами.</p>
-</blockquote>
 <hr />
-<h3 id="5-sdk"><strong>5. 🧠 Общие библиотеки и SDK</strong><a class="headerlink" href="#5-sdk" title="Permanent link">&para;</a></h3>
+<h2 id="5-sdk">5. Общие библиотеки и SDK<a class="headerlink" href="#5-sdk" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
 <p><strong>Описание:</strong> разные приложения используют одну и ту же библиотеку с общей логикой.</p>
@@ -2249,7 +2175,7 @@
 </li>
 </ul>
 <hr />
-<h3 id="_2"><strong>📊 Сравнение</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<h1 id="_2">Сравнение<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h1>
 <table>
 <thead>
 <tr>
@@ -2299,7 +2225,7 @@
 </tbody>
 </table>
 <hr />
-<h2 id="_3"><strong>📌 Вывод</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h1 id="_3">Вывод<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h1>
 <p>Выбор способа интеграции зависит от:</p>
 <ul>
 <li>

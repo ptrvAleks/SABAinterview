@@ -27,7 +27,7 @@
         <link rel="alternate" type="application/rss+xml" title="RSS канал" href="../../../feed_rss_created.xml">
         <link rel="alternate" type="application/rss+xml" title="RSS канал с новым контентом" href="../../../feed_rss_updated.xml">
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon-new.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
     
     
@@ -37,6 +37,9 @@
     
     
       <link rel="stylesheet" href="../../../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -74,7 +77,12 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -101,7 +109,7 @@
   <nav class="md-header__inner md-grid" aria-label="Верхний колонтитул">
     <a href="../../.." title="Подготовка к интервью" class="md-header__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
-  <img src="../../../assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo-new.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -125,8 +133,8 @@
       </div>
     </div>
     
+      
     
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
     
@@ -291,7 +299,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../../.." title="Подготовка к интервью" class="md-nav__button md-logo" aria-label="Подготовка к интервью" data-md-component="logo">
       
-  <img src="../../../assets/images/logo.png" alt="logo">
+  <img src="../../../assets/images/logo-new.png" alt="logo">
 
     </a>
     Подготовка к интервью
@@ -865,6 +873,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -907,6 +917,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -915,78 +927,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rabbitmq-vs-apache-kafka" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📬 RabbitMQ vs 🐘 Apache Kafka
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📬 RabbitMQ vs 🐘 Apache Kafka">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🧾 Описание
+        Описание
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📐 Архитектурные отличия
+        Архитектурные отличия
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🧰 Примеры использования
+        Примеры использования
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🧰 Примеры использования">
+    <nav class="md-nav" aria-label="Примеры использования">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ✅
-      
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#rabbitmq" class="md-nav__link">
     <span class="md-ellipsis">
       
         RabbitMQ
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ✅
       
     </span>
   </a>
@@ -1008,17 +986,17 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚙️ Пример архитектуры
+        Пример архитектуры
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="⚙️ Пример архитектуры">
+    <nav class="md-nav" aria-label="Пример архитектуры">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1043,16 +1021,11 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-        
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📊 Таблица сравнения
+        Таблица сравнения
       
     </span>
   </a>
@@ -1060,10 +1033,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        💡 Вывод
+        Вывод
       
     </span>
   </a>
@@ -1890,6 +1863,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1898,78 +1873,44 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#rabbitmq-vs-apache-kafka" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        📬 RabbitMQ vs 🐘 Apache Kafka
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="📬 RabbitMQ vs 🐘 Apache Kafka">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🧾 Описание
+        Описание
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📐 Архитектурные отличия
+        Архитектурные отличия
       
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
       
-        🧰 Примеры использования
+        Примеры использования
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="🧰 Примеры использования">
+    <nav class="md-nav" aria-label="Примеры использования">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ✅
-      
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#rabbitmq" class="md-nav__link">
     <span class="md-ellipsis">
       
         RabbitMQ
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        ✅
       
     </span>
   </a>
@@ -1991,17 +1932,17 @@
     </nav>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⚙️ Пример архитектуры
+        Пример архитектуры
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="⚙️ Пример архитектуры">
+    <nav class="md-nav" aria-label="Пример архитектуры">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2026,16 +1967,11 @@
   
 </li>
         
-      </ul>
-    </nav>
-  
-</li>
-        
           <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
+  <a href="#_5" class="md-nav__link">
     <span class="md-ellipsis">
       
-        📊 Таблица сравнения
+        Таблица сравнения
       
     </span>
   </a>
@@ -2043,10 +1979,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#_8" class="md-nav__link">
+  <a href="#_6" class="md-nav__link">
     <span class="md-ellipsis">
       
-        💡 Вывод
+        Вывод
       
     </span>
   </a>
@@ -2144,12 +2080,10 @@
   
 
 
-  <h1>RabbitMQ vs Kafka</h1>
-
-<h2 id="rabbitmq-vs-apache-kafka"><strong>📬 RabbitMQ vs 🐘 Apache Kafka</strong><a class="headerlink" href="#rabbitmq-vs-apache-kafka" title="Permanent link">&para;</a></h2>
+<h1 id="rabbitmq-vs-apache-kafka">RabbitMQ vs Apache Kafka<a class="headerlink" href="#rabbitmq-vs-apache-kafka" title="Permanent link">&para;</a></h1>
 <p><strong>RabbitMQ</strong> и <strong>Kafka</strong> — это два популярных брокера сообщений, но у них <strong>разные архитектуры, подходы и задачи</strong>, которые они решают.</p>
 <hr />
-<h3 id="_1"><strong>🧾 Описание</strong><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h3>
+<h2 id="_1">Описание<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2169,7 +2103,7 @@
 </tbody>
 </table>
 <hr />
-<h3 id="_2"><strong>📐 Архитектурные отличия</strong><a class="headerlink" href="#_2" title="Permanent link">&para;</a></h3>
+<h2 id="_2">Архитектурные отличия<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
@@ -2227,9 +2161,8 @@
 </tbody>
 </table>
 <hr />
-<h3 id="_3"><strong>🧰 Примеры использования</strong><a class="headerlink" href="#_3" title="Permanent link">&para;</a></h3>
-<h4 id="_4"><strong>✅</strong><a class="headerlink" href="#_4" title="Permanent link">&para;</a></h4>
-<h4 id="rabbitmq"><strong>RabbitMQ</strong><a class="headerlink" href="#rabbitmq" title="Permanent link">&para;</a></h4>
+<h2 id="_3">Примеры использования<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<h3 id="rabbitmq">RabbitMQ<a class="headerlink" href="#rabbitmq" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
 <p>Асинхронная передача задач между микросервисами.</p>
@@ -2244,8 +2177,7 @@
 <p>RPC-запросы между сервисами.</p>
 </li>
 </ul>
-<h4 id="_5"><strong>✅</strong><a class="headerlink" href="#_5" title="Permanent link">&para;</a></h4>
-<h4 id="kafka"><strong>Kafka</strong><a class="headerlink" href="#kafka" title="Permanent link">&para;</a></h4>
+<h3 id="kafka">Kafka<a class="headerlink" href="#kafka" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
 <p>Потоковая обработка данных (stream processing).</p>
@@ -2261,17 +2193,17 @@
 </li>
 </ul>
 <hr />
-<h3 id="_6"><strong>⚙️ Пример архитектуры</strong><a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
-<h4 id="rabbitmq_1"><strong>RabbitMQ:</strong><a class="headerlink" href="#rabbitmq_1" title="Permanent link">&para;</a></h4>
+<h2 id="_4">Пример архитектуры<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h2>
+<h3 id="rabbitmq_1">RabbitMQ:<a class="headerlink" href="#rabbitmq_1" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Producer → Queue → Consumer
 Сообщение удаляется после обработки
 </code></pre></div>
-<h4 id="kafka_1"><strong>Kafka:</strong><a class="headerlink" href="#kafka_1" title="Permanent link">&para;</a></h4>
+<h3 id="kafka_1">Kafka:<a class="headerlink" href="#kafka_1" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code>Producer → Topic → Consumer Group
 Сообщения хранятся, пока не истечёт TTL
 </code></pre></div>
 <hr />
-<h3 id="_7"><strong>📊 Таблица сравнения</strong><a class="headerlink" href="#_7" title="Permanent link">&para;</a></h3>
+<h3 id="_5">Таблица сравнения<a class="headerlink" href="#_5" title="Permanent link">&para;</a></h3>
 <table>
 <thead>
 <tr>
@@ -2309,13 +2241,13 @@
 </tbody>
 </table>
 <hr />
-<h3 id="_8"><strong>💡 Вывод</strong><a class="headerlink" href="#_8" title="Permanent link">&para;</a></h3>
+<h3 id="_6">Вывод<a class="headerlink" href="#_6" title="Permanent link">&para;</a></h3>
 <ul>
 <li>
-<p>🐇 <strong>RabbitMQ</strong> — хорош для <strong>традиционной очереди задач</strong>, где важна простота и подтверждение доставки.</p>
+<p><strong>RabbitMQ</strong> — хорош для <strong>традиционной очереди задач</strong>, где важна простота и подтверждение доставки.</p>
 </li>
 <li>
-<p>🐘 <strong>Kafka</strong> — оптимален для <strong>потоковой обработки данных</strong> в <strong>масштабируемых</strong> распределённых системах.</p>
+<p><strong>Kafka</strong> — оптимален для <strong>потоковой обработки данных</strong> в <strong>масштабируемых</strong> распределённых системах.</p>
 </li>
 </ul>
 
