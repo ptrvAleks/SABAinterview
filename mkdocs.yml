@@ -76,7 +76,6 @@ plugins:
       # простая маска: включить все страницы (регекс)
       match_path: ".*"
       use_git: true
-  - redirects
 
 
 
