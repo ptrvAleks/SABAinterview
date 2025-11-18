@@ -1,6 +1,6 @@
 # SABAinterview
 
-Документация / статический сайт проекта **SABAinterview** — исходники в папке `docs/`, конфигурация MkDocs в `mkdocs.yml`. Репозиторий содержит также собранный сайт в папке `site/`. Автор: `ptrvAleks`. ([GitHub][1])
+Документация / статический сайт проекта **SABAinterview** — исходники в папке `docs/`, конфигурация MkDocs в `mkdocs.yml`. Репозиторий содержит также собранный сайт в папке `site/`. Автор: `petrvAlex`. ([GitHub][1])
 
 ---
 
@@ -102,7 +102,7 @@ mkdocs build --strict
 
 ## Контакты / автор
 
-Автор: `ptrvAleks` (ссылка на профиль и GitHub Pages указан в репозитории). ([GitHub][1])
+Автор: `petrvAlex` (ссылка на профиль и GitHub Pages указан в репозитории). ([GitHub][1])
 
 ---
 
@@ -113,7 +113,7 @@ mkdocs build --strict
 
 ---
 
-[1]: https://github.com/ptrvAleks/SABAinterview/tree/main "GitHub - ptrvAleks/SABAinterview"
+[1]: https://github.com/petrvAlex/SABAinterview/tree/main "GitHub - petrvAlex/SABAinterview"
 [2]: https://www.mkdocs.org/user-guide/configuration/?utm_source=chatgpt.com "Configuration"
 [3]: https://www.mkdocs.org/user-guide/writing-your-docs/?utm_source=chatgpt.com "Writing Your Docs"
 [4]: https://squidfunk.github.io/mkdocs-material/creating-your-site/?utm_source=chatgpt.com "Creating your site - Material for MkDocs - GitHub Pages"
